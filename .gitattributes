@@ -1,0 +1,2 @@
+# 全仓库都是文本：统一以 LF 存入版本库，也以 LF 检出，避免 Windows 上的 CRLF 噪声。
+* text=auto eol=lf

@@ -1,0 +1,35 @@
+{
+  "name": "@local/dsh-plugin-english-roots",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "英语词根词缀学习：向 Harness 界面加入背诵面板，并注册 english_roots 工具供模型查询。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "data.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json"
+  ],
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "英语词根词缀",
+    "description": "内置 110 个词根、48 个前缀、40 个后缀，提供背诵卡片、可搜索的词库与四选一练习，并把同一份词库注册为 english_roots 工具。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

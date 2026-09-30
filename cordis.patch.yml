@@ -1,0 +1,5 @@
+# Loader patch for this bundle: one row activates the Host half (the
+# english_roots tool) and, through dsh.client, the browser half (the panel).
+- insert:
+    - id: english-roots
+      name: '@local/dsh-plugin-english-roots'
