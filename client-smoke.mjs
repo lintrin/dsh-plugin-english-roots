@@ -222,6 +222,19 @@ for (const name of new Set(reads.map((match) => match[1]))) {
 }
 // The header hairline is what makes the three class accents visible at once.
 if (!css.includes('linear-gradient(90deg')) fail('stylesheet lost the header accent gradient');
+// The morpheme mark is the panel's whole teaching device in the example table, and the
+// one thing it must never do is paint: the colour is the mark. A `background` here —
+// whether written as a tint or inherited from a mark element's UA default — repaints the
+// very words the reader is reading, and the rule would still look correct.
+const markRule = css.match(/\.er-word-hl\s*\{([^}]*)\}/u);
+if (markRule === null) fail('stylesheet lost the morpheme mark rule');
+if (!/color:/u.test(markRule[1])) fail('the morpheme mark must set the colour');
+if (/background/u.test(markRule[1])) {
+  fail(`the morpheme mark must not paint a background, found ${JSON.stringify(markRule[1].trim())}`);
+}
+if (/border-bottom|text-decoration/u.test(markRule[1])) {
+  fail(`the morpheme mark must not underline, found ${JSON.stringify(markRule[1].trim())}`);
+}
 
 // ------------------------------------------------------------------- data
 
@@ -273,6 +286,133 @@ if (lookup('en').length !== 2) fail(`lookup en returned ${JSON.stringify(lookup(
 const sides = Object.fromEntries(KINDS.map((kind) => [kind, 0]));
 for (const entry of morphemes) for (const { side } of api.variantForms(entry.form)) sides[side] += 1;
 if (sides.prefix === 0 || sides.suffix === 0) fail(`no positional variants: ${JSON.stringify(sides)}`);
+
+// ------------------------------------------------------------- morpheme mark
+
+// The panel marks the morpheme inside every example word, and a mark is never
+// decorative: it has to be one of the entry's own variants, sitting where its hyphen
+// says it should. Every one of the example words is checked here, because a wrong mark
+// teaches the wrong split and is worse than no mark at all.
+if (typeof api.locateMorpheme !== 'function' || typeof api.wordSegments !== 'function') {
+  fail('the morpheme-marking helpers are missing from the debug surface');
+}
+
+/**
+ * Words whose morpheme sound change has worn away: the `REVIEWED_EXEMPT` pairs in
+ * `build.mjs` that spell nothing the panel can mark. The list holds 49 pairs; the
+ * other six became visible once a variant such as `cert` was declared for them. The
+ * count is exact on purpose — adding an exemption means reading the pair, then
+ * updating that list and this number together.
+ */
+const EXPECTED_OBSCURED = 43;
+/** The longest matching form wins, so a mark never claims less than the word shows. */
+function longestKey(candidates) {
+  return Math.max(...candidates.map((candidate) => candidate.key.length));
+}
+
+let markedWords = 0;
+let obscuredWords = 0;
+for (const entry of morphemes) {
+  const variants = api.variantForms(entry.form);
+  for (const example of entry.examples) {
+    const word = example.word;
+    const lower = word.toLowerCase();
+    const segments = api.wordSegments(entry.form, word);
+    if (segments.map((segment) => segment.text).join('') !== word) {
+      fail(`${entry.form}/${word}: the marked segments do not rejoin the word`);
+    }
+    if (segments.some((segment) => segment.text.length === 0)) {
+      fail(`${entry.form}/${word}: an empty segment`);
+    }
+    const hits = segments.filter((segment) => segment.hit);
+    if (hits.length === 0) {
+      obscuredWords += 1;
+      if (api.locateMorpheme(entry.form, word) !== null) {
+        fail(`${entry.form}/${word}: locateMorpheme disagrees with wordSegments`);
+      }
+      continue;
+    }
+    markedWords += 1;
+    if (hits.length !== 1) fail(`${entry.form}/${word}: ${hits.length} marked runs, expected 1`);
+    const hit = hits[0].text.toLowerCase();
+    const at = api.locateMorpheme(entry.form, word);
+    const variant = variants.find((candidate) => candidate.key === hit);
+    if (variant === undefined) {
+      fail(`${entry.form}/${word}: marked "${hits[0].text}", which is no variant of the form`);
+    }
+    // A variant attached where its hyphen says it should be is the normal case, and
+    // then both the placement and the longest-match preference are guaranteed. A
+    // reviewed exemption that only *spells* the morpheme inside the word (`-log` in
+    // `logic`) is the one case where neither can hold, so only the variant check above
+    // applies to it.
+    const attached = variants.filter((candidate) => (candidate.side === 'prefix' && lower.startsWith(candidate.key))
+      || (candidate.side === 'suffix' && lower.endsWith(candidate.key)));
+    const stems = variants.filter((candidate) => candidate.side === 'neutral' && lower.includes(candidate.key));
+    if (attached.length > 0) {
+      if (hit.length !== longestKey(attached)) {
+        fail(`${entry.form}/${word}: marked "${hits[0].text}" while a longer attached variant matches`);
+      }
+      if (variant.side === 'prefix' && at.start !== 0) {
+        fail(`${entry.form}/${word}: marked a prefix away from the start of the word`);
+      }
+      if (variant.side === 'suffix' && at.end !== word.length) {
+        fail(`${entry.form}/${word}: marked a suffix away from the end of the word`);
+      }
+    } else if (stems.length > 0) {
+      if (variant.side !== 'neutral' || hit.length !== longestKey(stems)) {
+        fail(`${entry.form}/${word}: marked "${hits[0].text}" while a longer stem matches`);
+      }
+    }
+  }
+}
+if (obscuredWords !== EXPECTED_OBSCURED) {
+  fail(`${obscuredWords} example words show no morpheme, expected ${EXPECTED_OBSCURED}; if the data changed, `
+    + 'read the pair and update build.mjs REVIEWED_EXEMPT and this count together');
+}
+console.log(`marking ok: ${markedWords} of ${markedWords + obscuredWords} example words marked, `
+  + `${obscuredWords} worn away by sound change`);
+
+// Rendering, not just the mapping: one row colours its morpheme and nothing else, a row
+// whose morpheme is invisible stays plain and explains itself, and an open question
+// colours nothing at all — a coloured run there would point straight at the right option.
+const [stem, stemWord] = ['spect / spic', 'inspect'];
+const stemParts = api.wordSegments(stem, stemWord);
+if (stemParts.map((segment) => segment.text).join('') !== stemWord
+  || stemParts.filter((segment) => segment.hit).map((segment) => segment.text).join('') !== 'spect') {
+  fail(`${stem}/${stemWord} should mark "spect", got ${JSON.stringify(stemParts)}`);
+}
+/** The coloured run, recognised the way the stylesheet does: by its class. */
+const marked = (list) => list.filter((element) => element.props?.className === 'er-word-hl');
+const rowEntry = morphemes.find((entry) => entry.kind === 'root' && entry.form === stem);
+const rowExample = rowEntry?.examples.find((example) => example.word === stemWord);
+if (rowExample === undefined) fail(`the dictionary no longer carries ${stem} → ${stemWord}`);
+elements.length = 0;
+api.components.WordRow({ entry: rowEntry, example: rowExample });
+const rows = marked(elements);
+if (rows.length !== 1) fail(`one example row rendered ${rows.length} marks, expected 1`);
+// A `mark` element would bring the browser's own yellow background along with it, which
+// is exactly the repaint this panel must not have.
+if (rows[0].type !== 'span') fail(`the mark is a ${String(rows[0].type)}, not a span`);
+if (String(rows[0].children[0]) !== 'spect') fail(`the row marked ${JSON.stringify(rows[0].children[0])}`);
+
+const obscuredEntry = morphemes.find((entry) => entry.form === 'reg');
+const obscuredExample = obscuredEntry?.examples.find((example) => example.word === 'reign');
+if (obscuredExample === undefined) fail('the dictionary no longer carries reg → reign');
+elements.length = 0;
+api.components.WordRow({ entry: obscuredEntry, example: obscuredExample });
+if (marked(elements).length > 0) {
+  fail('reign cannot be marked: sound change left no trace of reg- in it');
+}
+const cell = elements.find((element) => element.props?.className === 'er-word-text');
+if (typeof cell?.props?.title !== 'string' || !cell.props.title.includes('不可见')) {
+  fail(`an unmarked example word must explain itself, got title ${JSON.stringify(cell?.props?.title)}`);
+}
+
+elements.length = 0;
+api.components.PracticeTab({ stats: { attempts: 0, correct: 0 }, onStatsChange() {} });
+if (marked(elements).length > 0) {
+  fail('an unanswered quiz question already marks a morpheme, which gives the answer away');
+}
 
 // Replica of the module's quiz draw: four distinct words must always be found.
 function makeQuizItem(level, kind) {

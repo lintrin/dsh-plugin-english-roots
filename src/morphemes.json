@@ -27,6 +27,16 @@
         "word": "suspicious",
         "pos": "adj.",
         "meaning": "可疑的"
+      },
+      {
+        "word": "aspect",
+        "pos": "n.",
+        "meaning": "方面；外观（a- 朝向 + spect 看）"
+      },
+      {
+        "word": "conspicuous",
+        "pos": "adj.",
+        "meaning": "显眼的；引人注目的（con- 完全 + spic 看 + -uous）"
       }
     ]
   },
@@ -58,6 +68,16 @@
         "word": "evidence",
         "pos": "n.",
         "meaning": "证据（e- 向外 + vid 看）"
+      },
+      {
+        "word": "evident",
+        "pos": "adj.",
+        "meaning": "明显的（e- 向外 + vid 看 + -ent）"
+      },
+      {
+        "word": "visual",
+        "pos": "adj.",
+        "meaning": "视觉的"
       }
     ]
   },
@@ -89,6 +109,16 @@
         "word": "dedicate",
         "pos": "v.",
         "meaning": "奉献；致力于"
+      },
+      {
+        "word": "dictate",
+        "pos": "v.",
+        "meaning": "口述；命令（dict 说 + -ate）"
+      },
+      {
+        "word": "verdict",
+        "pos": "n.",
+        "meaning": "裁决；判决（ver- 真实 + dict 说）"
       }
     ]
   },
@@ -120,6 +150,16 @@
         "word": "reduce",
         "pos": "v.",
         "meaning": "减少（re- 向后 + duc 引）"
+      },
+      {
+        "word": "education",
+        "pos": "n.",
+        "meaning": "教育（e- 向外 + duc 引导 + -ation 把潜能引出来）"
+      },
+      {
+        "word": "deduct",
+        "pos": "v.",
+        "meaning": "扣除；减去（de- 向下 + duct 引）"
       }
     ]
   },
@@ -151,6 +191,16 @@
         "word": "subject",
         "pos": "n.",
         "meaning": "主题；主语（sub- 在下 + ject 投）"
+      },
+      {
+        "word": "inject",
+        "pos": "v.",
+        "meaning": "注射；注入（in- 进入 + ject 投）"
+      },
+      {
+        "word": "eject",
+        "pos": "v.",
+        "meaning": "弹出；驱逐（e- 向外 + ject 扔）"
       }
     ]
   },
@@ -182,6 +232,16 @@
         "word": "promise",
         "pos": "n./v.",
         "meaning": "承诺（pro- 向前 + miss 送）"
+      },
+      {
+        "word": "admit",
+        "pos": "v.",
+        "meaning": "承认；准许进入（ad- 向 + mit 送）"
+      },
+      {
+        "word": "transmit",
+        "pos": "v.",
+        "meaning": "传送；传播（trans- 越过 + mit 送）"
       }
     ]
   },
@@ -213,6 +273,16 @@
         "word": "portable",
         "pos": "adj.",
         "meaning": "便携的"
+      },
+      {
+        "word": "export",
+        "pos": "v./n.",
+        "meaning": "出口（ex- 向外 + port 搬运）"
+      },
+      {
+        "word": "deport",
+        "pos": "v.",
+        "meaning": "驱逐出境（de- 离开 + port 搬运）"
       }
     ]
   },
@@ -244,6 +314,16 @@
         "word": "component",
         "pos": "n.",
         "meaning": "组成部分"
+      },
+      {
+        "word": "propose",
+        "pos": "v.",
+        "meaning": "提议；求婚（pro- 向前 + pos 放）"
+      },
+      {
+        "word": "deposit",
+        "pos": "n./v.",
+        "meaning": "存款；存放（de- 向下 + pos 放）"
       }
     ]
   },
@@ -275,6 +355,16 @@
         "word": "manuscript",
         "pos": "n.",
         "meaning": "手稿"
+      },
+      {
+        "word": "transcript",
+        "pos": "n.",
+        "meaning": "成绩单；文字记录（trans- 转移 + script 写）"
+      },
+      {
+        "word": "inscription",
+        "pos": "n.",
+        "meaning": "铭文；题词（in- 在上 + script 写 + -ion）"
       }
     ]
   },
@@ -306,6 +396,16 @@
         "word": "sentiment",
         "pos": "n.",
         "meaning": "情感；看法"
+      },
+      {
+        "word": "sensible",
+        "pos": "adj.",
+        "meaning": "明智的；通情达理的（sens 感觉 + -ible）"
+      },
+      {
+        "word": "resent",
+        "pos": "v.",
+        "meaning": "怨恨；不满（re- 反复 + sent 感觉）"
       }
     ]
   },
@@ -337,6 +437,16 @@
         "word": "distract",
         "pos": "v.",
         "meaning": "使分心"
+      },
+      {
+        "word": "subtract",
+        "pos": "v.",
+        "meaning": "减去（sub- 在下 + tract 拉）"
+      },
+      {
+        "word": "abstract",
+        "pos": "adj./n.",
+        "meaning": "抽象的；摘要（abs- 离开 + tract 拉）"
       }
     ]
   },
@@ -368,6 +478,16 @@
         "word": "destruction",
         "pos": "n.",
         "meaning": "破坏（de- 去掉 + struct 建）"
+      },
+      {
+        "word": "obstruct",
+        "pos": "v.",
+        "meaning": "阻碍；阻塞（ob- 阻挡 + struct 建造）"
+      },
+      {
+        "word": "infrastructure",
+        "pos": "n.",
+        "meaning": "基础设施（infra- 在下 + struct 建造 + -ure）"
       }
     ]
   },
@@ -399,6 +519,16 @@
         "word": "uniform",
         "pos": "adj./n.",
         "meaning": "统一的；制服"
+      },
+      {
+        "word": "perform",
+        "pos": "v.",
+        "meaning": "表演；执行（per- 彻底 + form 形成）"
+      },
+      {
+        "word": "transform",
+        "pos": "v.",
+        "meaning": "改变；转化（trans- 转变 + form 形状）"
       }
     ]
   },
@@ -430,6 +560,16 @@
         "word": "difficult",
         "pos": "adj.",
         "meaning": "困难的（dif- 不 + fic 做 + -ult）"
+      },
+      {
+        "word": "manufacture",
+        "pos": "v./n.",
+        "meaning": "制造；产品（manu 手 + fact 做 + -ure）"
+      },
+      {
+        "word": "infect",
+        "pos": "v.",
+        "meaning": "感染；传染（in- 进入 + fect 做）"
       }
     ]
   },
@@ -461,12 +601,22 @@
         "word": "enterprise",
         "pos": "n.",
         "meaning": "企业；事业心"
+      },
+      {
+        "word": "apprehend",
+        "pos": "v.",
+        "meaning": "理解；逮捕（ap- 向 + prehend 抓住）"
+      },
+      {
+        "word": "comprise",
+        "pos": "v.",
+        "meaning": "包含；由…组成（com- 共同 + pris 抓 + -e）"
       }
     ]
   },
   {
     "kind": "root",
-    "form": "cred",
+    "form": "cred / creed",
     "meaning": "相信",
     "meaningEn": "to believe, to trust",
     "origin": "拉丁语 credere",
@@ -492,6 +642,16 @@
         "word": "credentials",
         "pos": "n.",
         "meaning": "资格证书"
+      },
+      {
+        "word": "credulous",
+        "pos": "adj.",
+        "meaning": "轻信的；易受骗的（cred 相信 + -ulous）"
+      },
+      {
+        "word": "credence",
+        "pos": "n.",
+        "meaning": "相信；可信度"
       }
     ]
   },
@@ -523,6 +683,16 @@
         "word": "currency",
         "pos": "n.",
         "meaning": "货币"
+      },
+      {
+        "word": "cursor",
+        "pos": "n.",
+        "meaning": "光标（curs 跑 + -or 会跑的东西）"
+      },
+      {
+        "word": "precursor",
+        "pos": "n.",
+        "meaning": "先驱；前兆（pre- 在前 + curs 跑 + -or）"
       }
     ]
   },
@@ -554,6 +724,16 @@
         "word": "flush",
         "pos": "v.",
         "meaning": "冲洗；脸红"
+      },
+      {
+        "word": "fluctuate",
+        "pos": "v.",
+        "meaning": "波动；起伏（fluct 流动 + -ate）"
+      },
+      {
+        "word": "affluent",
+        "pos": "adj.",
+        "meaning": "富裕的（af- 向 + flu 流 + -ent 财源滚滚）"
       }
     ]
   },
@@ -585,6 +765,16 @@
         "word": "congress",
         "pos": "n.",
         "meaning": "国会；代表大会"
+      },
+      {
+        "word": "upgrade",
+        "pos": "v./n.",
+        "meaning": "升级；提升（up- 向上 + grad 走）"
+      },
+      {
+        "word": "graduate",
+        "pos": "v./n.",
+        "meaning": "毕业；毕业生（grad 步 + -uate 走完学业）"
       }
     ]
   },
@@ -616,6 +806,16 @@
         "word": "refer",
         "pos": "v.",
         "meaning": "参考；提到"
+      },
+      {
+        "word": "conference",
+        "pos": "n.",
+        "meaning": "会议；研讨会（con- 共同 + fer 带来 + -ence 把意见带到一起）"
+      },
+      {
+        "word": "interfere",
+        "pos": "v.",
+        "meaning": "干扰；干涉（inter- 之间 + fer 带来 + -e）"
       }
     ]
   },
@@ -647,6 +847,16 @@
         "word": "corrupt",
         "pos": "adj./v.",
         "meaning": "腐败的；贿赂"
+      },
+      {
+        "word": "disrupt",
+        "pos": "v.",
+        "meaning": "扰乱；使中断（dis- 分开 + rupt 断）"
+      },
+      {
+        "word": "abrupt",
+        "pos": "adj.",
+        "meaning": "突然的；生硬的（ab- 离开 + rupt 断）"
       }
     ]
   },
@@ -678,6 +888,16 @@
         "word": "assist",
         "pos": "v.",
         "meaning": "协助（as- 在旁边 + sist 站）"
+      },
+      {
+        "word": "consist",
+        "pos": "v.",
+        "meaning": "由……组成（con- 一起 + sist 站）"
+      },
+      {
+        "word": "statue",
+        "pos": "n.",
+        "meaning": "雕像（sta 站 + -tue 名词后缀，站着的像）"
       }
     ]
   },
@@ -709,6 +929,16 @@
         "word": "pulse",
         "pos": "n.",
         "meaning": "脉搏"
+      },
+      {
+        "word": "propel",
+        "pos": "v.",
+        "meaning": "推进；驱使（pro- 向前 + pel 推）"
+      },
+      {
+        "word": "repulsive",
+        "pos": "adj.",
+        "meaning": "令人厌恶的（re- 回 + puls 推，把人推开）"
       }
     ]
   },
@@ -740,6 +970,16 @@
         "word": "avenue",
         "pos": "n.",
         "meaning": "大街；途径"
+      },
+      {
+        "word": "convene",
+        "pos": "v.",
+        "meaning": "召集；集会（con- 一起 + ven 来）"
+      },
+      {
+        "word": "advent",
+        "pos": "n.",
+        "meaning": "到来；出现（ad- 向 + vent 来）"
       }
     ]
   },
@@ -771,6 +1011,16 @@
         "word": "vocabulary",
         "pos": "n.",
         "meaning": "词汇"
+      },
+      {
+        "word": "advocate",
+        "pos": "v./n.",
+        "meaning": "提倡；拥护者（ad- 向 + voc 叫，为某人发声）"
+      },
+      {
+        "word": "revoke",
+        "pos": "v.",
+        "meaning": "撤销；吊销（re- 回 + vok 叫，叫回来）"
       }
     ]
   },
@@ -802,6 +1052,16 @@
         "word": "aspiration",
         "pos": "n.",
         "meaning": "志向；渴望"
+      },
+      {
+        "word": "respiratory",
+        "pos": "adj.",
+        "meaning": "呼吸的（re- 反复 + spir 呼吸 + -atory 形容词后缀）"
+      },
+      {
+        "word": "conspiracy",
+        "pos": "n.",
+        "meaning": "阴谋（con- 一起 + spir 呼吸，同声共气）"
       }
     ]
   },
@@ -833,6 +1093,16 @@
         "word": "tennis",
         "pos": "n.",
         "meaning": "网球（源自「接住」的喊声）"
+      },
+      {
+        "word": "retain",
+        "pos": "v.",
+        "meaning": "保留；记住（re- 回 + tain 握住）"
+      },
+      {
+        "word": "tenant",
+        "pos": "n.",
+        "meaning": "房客；租户（ten 握住 + -ant 人，握住使用权的人）"
       }
     ]
   },
@@ -864,6 +1134,16 @@
         "word": "manage",
         "pos": "v.",
         "meaning": "管理；设法做到"
+      },
+      {
+        "word": "manumit",
+        "pos": "v.",
+        "meaning": "解放（奴隶）（manu 手 + mit 送，送到手中放走）"
+      },
+      {
+        "word": "manubrium",
+        "pos": "n.",
+        "meaning": "胸骨柄；柄状部（manu 手 + -brium 名词后缀，手柄状）"
       }
     ]
   },
@@ -895,6 +1175,16 @@
         "word": "expedition",
         "pos": "n.",
         "meaning": "远征；探险"
+      },
+      {
+        "word": "impede",
+        "pos": "v.",
+        "meaning": "阻碍（im- 进入 + ped 脚，缠住脚）"
+      },
+      {
+        "word": "centipede",
+        "pos": "n.",
+        "meaning": "蜈蚣（centi 百 + ped 脚）"
       }
     ]
   },
@@ -926,6 +1216,16 @@
         "word": "mortuary",
         "pos": "n.",
         "meaning": "太平间"
+      },
+      {
+        "word": "mortality",
+        "pos": "n.",
+        "meaning": "死亡率；必死性（mort 死 + -ality 名词后缀）"
+      },
+      {
+        "word": "postmortem",
+        "pos": "adj./n.",
+        "meaning": "死后的；尸检（post- 之后 + mort 死）"
       }
     ]
   },
@@ -957,6 +1257,16 @@
         "word": "vivid",
         "pos": "adj.",
         "meaning": "生动的"
+      },
+      {
+        "word": "revive",
+        "pos": "v.",
+        "meaning": "复苏；使复活（re- 再 + viv 活）"
+      },
+      {
+        "word": "vivacious",
+        "pos": "adj.",
+        "meaning": "活泼的；生机勃勃的（viv 活 + -acious 形容词后缀）"
       }
     ]
   },
@@ -988,6 +1298,16 @@
         "word": "benefactor",
         "pos": "n.",
         "meaning": "捐助人"
+      },
+      {
+        "word": "benediction",
+        "pos": "n.",
+        "meaning": "祝福（bene- 好 + dict 说 + -ion 名词后缀）"
+      },
+      {
+        "word": "beneficiary",
+        "pos": "n.",
+        "meaning": "受益人（bene- 好 + fic 做 + -iary 人）"
       }
     ]
   },
@@ -1019,6 +1339,16 @@
         "word": "malice",
         "pos": "n.",
         "meaning": "恶意"
+      },
+      {
+        "word": "malevolent",
+        "pos": "adj.",
+        "meaning": "有恶意的（mal- 坏 + vol 意愿 + -ent 形容词后缀）"
+      },
+      {
+        "word": "malpractice",
+        "pos": "n.",
+        "meaning": "玩忽职守；医疗事故（mal- 坏 + practice 执业）"
       }
     ]
   },
@@ -1050,6 +1380,16 @@
         "word": "pandemic",
         "pos": "n./adj.",
         "meaning": "大流行病"
+      },
+      {
+        "word": "democrat",
+        "pos": "n.",
+        "meaning": "民主主义者（dem 人民 + crat 统治）"
+      },
+      {
+        "word": "demotic",
+        "pos": "adj.",
+        "meaning": "民众的；通俗的（dem 人民 + -otic 形容词后缀）"
       }
     ]
   },
@@ -1081,6 +1421,16 @@
         "word": "theoretical",
         "pos": "adj.",
         "meaning": "理论的"
+      },
+      {
+        "word": "monotheism",
+        "pos": "n.",
+        "meaning": "一神教（mono- 单一 + the 神 + -ism 主义）"
+      },
+      {
+        "word": "apotheosis",
+        "pos": "n.",
+        "meaning": "神化；极致（apo- 成为 + theo 神 + -sis 名词后缀）"
       }
     ]
   },
@@ -1112,6 +1462,16 @@
         "word": "apology",
         "pos": "n.",
         "meaning": "道歉"
+      },
+      {
+        "word": "psychology",
+        "pos": "n.",
+        "meaning": "心理学（psycho 心灵 + -logy 学科）"
+      },
+      {
+        "word": "technology",
+        "pos": "n.",
+        "meaning": "技术；工艺（techno 技艺 + -logy 学科）"
       }
     ]
   },
@@ -1143,6 +1503,16 @@
         "word": "program",
         "pos": "n./v.",
         "meaning": "程序；节目"
+      },
+      {
+        "word": "paragraph",
+        "pos": "n.",
+        "meaning": "段落（para- 旁边 + graph 写）"
+      },
+      {
+        "word": "telegram",
+        "pos": "n.",
+        "meaning": "电报（tele 远 + gram 写下的东西）"
       }
     ]
   },
@@ -1174,6 +1544,16 @@
         "word": "microphone",
         "pos": "n.",
         "meaning": "麦克风"
+      },
+      {
+        "word": "saxophone",
+        "pos": "n.",
+        "meaning": "萨克斯管（saxo 发明者名 + phon 声音）"
+      },
+      {
+        "word": "phonograph",
+        "pos": "n.",
+        "meaning": "留声机（phon 声音 + graph 写录）"
       }
     ]
   },
@@ -1205,6 +1585,16 @@
         "word": "antibiotic",
         "pos": "n./adj.",
         "meaning": "抗生素"
+      },
+      {
+        "word": "biodiversity",
+        "pos": "n.",
+        "meaning": "生物多样性（bio 生命 + diversity 多样性）"
+      },
+      {
+        "word": "biosphere",
+        "pos": "n.",
+        "meaning": "生物圈（bio 生命 + sphere 圈层）"
       }
     ]
   },
@@ -1236,6 +1626,16 @@
         "word": "geothermal",
         "pos": "adj.",
         "meaning": "地热的"
+      },
+      {
+        "word": "geocentric",
+        "pos": "adj.",
+        "meaning": "地心的（geo 地球 + centr 中心 + -ic 形容词后缀）"
+      },
+      {
+        "word": "geophysics",
+        "pos": "n.",
+        "meaning": "地球物理学（geo 地球 + physics 物理学）"
       }
     ]
   },
@@ -1267,6 +1667,16 @@
         "word": "psychopath",
         "pos": "n.",
         "meaning": "精神变态者"
+      },
+      {
+        "word": "psychoanalysis",
+        "pos": "n.",
+        "meaning": "精神分析（psycho 精神 + analysis 分析）"
+      },
+      {
+        "word": "psyche",
+        "pos": "n.",
+        "meaning": "心灵；灵魂（psych 心灵 + -e）"
       }
     ]
   },
@@ -1298,6 +1708,16 @@
         "word": "pathology",
         "pos": "n.",
         "meaning": "病理学"
+      },
+      {
+        "word": "empathy",
+        "pos": "n.",
+        "meaning": "共情；同理心（em- 进入 + path 感觉 → 感同身受）"
+      },
+      {
+        "word": "pathogen",
+        "pos": "n.",
+        "meaning": "病原体（path 病痛 + gen 产生）"
       }
     ]
   },
@@ -1329,6 +1749,16 @@
         "word": "promote",
         "pos": "v.",
         "meaning": "促进；晋升"
+      },
+      {
+        "word": "motionless",
+        "pos": "adj.",
+        "meaning": "静止不动的（mot 动 + -ion + -less 无）"
+      },
+      {
+        "word": "automobile",
+        "pos": "n.",
+        "meaning": "汽车（auto- 自己 + mob 移动 → 自己会动的车）"
       }
     ]
   },
@@ -1342,9 +1772,9 @@
     "note": "「跟在后面」：连续、结果、随之而来。",
     "examples": [
       {
-        "word": "sequence",
-        "pos": "n.",
-        "meaning": "顺序；序列"
+        "word": "sequential",
+        "pos": "adj.",
+        "meaning": "连续的；按顺序的"
       },
       {
         "word": "consequence",
@@ -1352,14 +1782,24 @@
         "meaning": "结果（con- 一起 + sequ 跟）"
       },
       {
-        "word": "subsequent",
+        "word": "obsequious",
         "pos": "adj.",
-        "meaning": "随后的"
+        "meaning": "谄媚的；顺从的"
       },
       {
         "word": "consecutive",
         "pos": "adj.",
         "meaning": "连续的"
+      },
+      {
+        "word": "persecute",
+        "pos": "v.",
+        "meaning": "迫害；烦扰（per- 一直 + secut 跟随 → 追着不放）"
+      },
+      {
+        "word": "sequacious",
+        "pos": "adj.",
+        "meaning": "盲从的；一味追随的"
       }
     ]
   },
@@ -1391,6 +1831,16 @@
         "word": "restrain",
         "pos": "v.",
         "meaning": "抑制；约束"
+      },
+      {
+        "word": "restrictive",
+        "pos": "adj.",
+        "meaning": "限制性的"
+      },
+      {
+        "word": "stringent",
+        "pos": "adj.",
+        "meaning": "严格的；紧缩的（string 拉紧 + -ent）"
       }
     ]
   },
@@ -1422,6 +1872,16 @@
         "word": "intense",
         "pos": "adj.",
         "meaning": "强烈的"
+      },
+      {
+        "word": "contend",
+        "pos": "v.",
+        "meaning": "争辩；争夺（con- 一起 + tend 伸 → 一起用力）"
+      },
+      {
+        "word": "extensive",
+        "pos": "adj.",
+        "meaning": "广泛的；大量的"
       }
     ]
   },
@@ -1453,6 +1913,16 @@
         "word": "average",
         "pos": "n./adj.",
         "meaning": "平均；普通的"
+      },
+      {
+        "word": "veracity",
+        "pos": "n.",
+        "meaning": "诚实；真实性（ver 真 + -acity 性质）"
+      },
+      {
+        "word": "veritable",
+        "pos": "adj.",
+        "meaning": "名副其实的（veri 真 + -table 可…的）"
       }
     ]
   },
@@ -1484,6 +1954,16 @@
         "word": "faith",
         "pos": "n.",
         "meaning": "信念；信仰"
+      },
+      {
+        "word": "confidant",
+        "pos": "n.",
+        "meaning": "知己；密友（con- 完全 + fid 信任 + -ant 人）"
+      },
+      {
+        "word": "confide",
+        "pos": "v.",
+        "meaning": "倾诉；信赖（con- 完全 + fid 信任）"
       }
     ]
   },
@@ -1515,6 +1995,16 @@
         "word": "congratulate",
         "pos": "v.",
         "meaning": "祝贺"
+      },
+      {
+        "word": "graciousness",
+        "pos": "n.",
+        "meaning": "亲切；优雅（grac 愉快 + -ous + -ness）"
+      },
+      {
+        "word": "gratify",
+        "pos": "v.",
+        "meaning": "使满足；使高兴（grat 愉快 + -ify 使…）"
       }
     ]
   },
@@ -1546,6 +2036,16 @@
         "word": "reserve",
         "pos": "n./v.",
         "meaning": "预订；储备"
+      },
+      {
+        "word": "conserve",
+        "pos": "v.",
+        "meaning": "保存；节约（con- 一起 + serv 保持）"
+      },
+      {
+        "word": "deserve",
+        "pos": "v.",
+        "meaning": "值得；应得（de- 完全 + serv 服务 → 服务到位）"
       }
     ]
   },
@@ -1577,6 +2077,16 @@
         "word": "infinite",
         "pos": "adj.",
         "meaning": "无限的"
+      },
+      {
+        "word": "confine",
+        "pos": "v./n.",
+        "meaning": "限制；范围（con- 一起 + fin 界限）"
+      },
+      {
+        "word": "definitive",
+        "pos": "adj.",
+        "meaning": "决定性的；最终的（de- 完全 + fin 界限 + -itive）"
       }
     ]
   },
@@ -1608,6 +2118,16 @@
         "word": "concept",
         "pos": "n.",
         "meaning": "概念"
+      },
+      {
+        "word": "municipal",
+        "pos": "adj.",
+        "meaning": "市政的；地方自治的"
+      },
+      {
+        "word": "except",
+        "pos": "prep./v.",
+        "meaning": "除…之外；排除（ex- 出 + cept 拿 → 拿出去）"
       }
     ]
   },
@@ -1639,6 +2159,16 @@
         "word": "intelligent",
         "pos": "adj.",
         "meaning": "聪明的（在两者间会挑）"
+      },
+      {
+        "word": "legend",
+        "pos": "n.",
+        "meaning": "传说；传奇人物（leg 读 + -end → 值得一读的东西）"
+      },
+      {
+        "word": "eligible",
+        "pos": "adj.",
+        "meaning": "有资格的（e- 出 + lig 挑选 + -ible → 可被挑出的）"
       }
     ]
   },
@@ -1670,6 +2200,16 @@
         "word": "joint",
         "pos": "adj./n.",
         "meaning": "联合的；关节"
+      },
+      {
+        "word": "adjoin",
+        "pos": "v.",
+        "meaning": "毗连；紧挨（ad- 向 + join 连接）"
+      },
+      {
+        "word": "disjoint",
+        "pos": "v.",
+        "meaning": "使脱节；拆开"
       }
     ]
   },
@@ -1701,6 +2241,16 @@
         "word": "novice",
         "pos": "n.",
         "meaning": "新手"
+      },
+      {
+        "word": "novelty",
+        "pos": "n.",
+        "meaning": "新奇；新颖的事物（nov 新 + -elty）"
+      },
+      {
+        "word": "innovative",
+        "pos": "adj.",
+        "meaning": "创新的；新颖的（in- 使 + nov 新 + -ative）"
       }
     ]
   },
@@ -1732,6 +2282,16 @@
         "word": "isolate",
         "pos": "v.",
         "meaning": "隔离（使成孤岛）"
+      },
+      {
+        "word": "solitude",
+        "pos": "n.",
+        "meaning": "孤独；独处（sol 独自 + -itude 状态）"
+      },
+      {
+        "word": "solitary",
+        "pos": "adj.",
+        "meaning": "独自的；孤独的（sol 独自 + -itary）"
       }
     ]
   },
@@ -1763,12 +2323,22 @@
         "word": "Mediterranean",
         "pos": "n./adj.",
         "meaning": "地中海（medi 中 + terr 地）"
+      },
+      {
+        "word": "terrestrial",
+        "pos": "adj.",
+        "meaning": "陆地的；地球的（terr 土地 + -estrial）"
+      },
+      {
+        "word": "extraterrestrial",
+        "pos": "adj./n.",
+        "meaning": "地球之外的；外星人（extra- 之外 + terrestrial 地球的）"
       }
     ]
   },
   {
     "kind": "root",
-    "form": "aqua",
+    "form": "aqua / aque / aqui",
     "meaning": "水",
     "meaningEn": "water",
     "origin": "拉丁语 aqua",
@@ -1794,6 +2364,16 @@
         "word": "aquifer",
         "pos": "n.",
         "meaning": "含水层"
+      },
+      {
+        "word": "aqueous",
+        "pos": "adj.",
+        "meaning": "水的；水状的（aqua 水 + -eous）"
+      },
+      {
+        "word": "aquaplane",
+        "pos": "n.",
+        "meaning": "滑水板"
       }
     ]
   },
@@ -1825,6 +2405,16 @@
         "word": "segregate",
         "pos": "v.",
         "meaning": "隔离（se- 分开 + greg 群）"
+      },
+      {
+        "word": "segregation",
+        "pos": "n.",
+        "meaning": "隔离；种族隔离（se- 分开 + greg 群 + -ation）"
+      },
+      {
+        "word": "egregious",
+        "pos": "adj.",
+        "meaning": "极其恶劣的（e- 出 + greg 群 → 突出于群体之外）"
       }
     ]
   },
@@ -1856,6 +2446,16 @@
         "word": "colloquial",
         "pos": "adj.",
         "meaning": "口语的"
+      },
+      {
+        "word": "eloquence",
+        "pos": "n.",
+        "meaning": "口才；雄辩（e- 出 + loqu 说 + -ence）"
+      },
+      {
+        "word": "circumlocution",
+        "pos": "n.",
+        "meaning": "迂回的说法（circum- 环绕 + locut 说 + -ion）"
       }
     ]
   },
@@ -1887,6 +2487,16 @@
         "word": "evoke",
         "pos": "v.",
         "meaning": "唤起（e- 向外 + vok 叫）"
+      },
+      {
+        "word": "convoke",
+        "pos": "v.",
+        "meaning": "召集（con- 共同 + vok 叫）"
+      },
+      {
+        "word": "revoke",
+        "pos": "v.",
+        "meaning": "撤销；吊销（re- 回 + vok 叫）"
       }
     ]
   },
@@ -1918,6 +2528,16 @@
         "word": "correspond",
         "pos": "v.",
         "meaning": "通信；相符"
+      },
+      {
+        "word": "despondent",
+        "pos": "adj.",
+        "meaning": "沮丧的（de- 去掉 + spond 承诺）"
+      },
+      {
+        "word": "responsive",
+        "pos": "adj.",
+        "meaning": "反应灵敏的；回应的"
       }
     ]
   },
@@ -1949,6 +2569,16 @@
         "word": "universal",
         "pos": "adj.",
         "meaning": "普遍的"
+      },
+      {
+        "word": "convalesce",
+        "pos": "v.",
+        "meaning": "康复（con- 完全 + val 强壮）"
+      },
+      {
+        "word": "evaluate",
+        "pos": "v.",
+        "meaning": "评估；评价"
       }
     ]
   },
@@ -1980,6 +2610,16 @@
         "word": "lever",
         "pos": "n.",
         "meaning": "杠杆"
+      },
+      {
+        "word": "alleviate",
+        "pos": "v.",
+        "meaning": "减轻；缓和（al- 加强 + lev 轻）"
+      },
+      {
+        "word": "levity",
+        "pos": "n.",
+        "meaning": "轻浮；轻率"
       }
     ]
   },
@@ -2011,6 +2651,16 @@
         "word": "reign",
         "pos": "n./v.",
         "meaning": "统治；在位"
+      },
+      {
+        "word": "regency",
+        "pos": "n.",
+        "meaning": "摄政；摄政期"
+      },
+      {
+        "word": "regime",
+        "pos": "n.",
+        "meaning": "政权；制度"
       }
     ]
   },
@@ -2042,12 +2692,22 @@
         "word": "tactile",
         "pos": "adj.",
         "meaning": "触觉的"
+      },
+      {
+        "word": "intangible",
+        "pos": "adj.",
+        "meaning": "无形的；难以捉摸的（in- 否 + tangible 可触的）"
+      },
+      {
+        "word": "tact",
+        "pos": "n.",
+        "meaning": "得体；圆通（懂得怎么「碰」人）"
       }
     ]
   },
   {
     "kind": "root",
-    "form": "secut",
+    "form": "secut / sequ",
     "meaning": "跟随",
     "meaningEn": "to follow",
     "origin": "拉丁语 sequi（分词 secutus）",
@@ -2073,6 +2733,16 @@
         "word": "consecutive",
         "pos": "adj.",
         "meaning": "连续的"
+      },
+      {
+        "word": "sequence",
+        "pos": "n.",
+        "meaning": "顺序；序列（一个跟一个）"
+      },
+      {
+        "word": "subsequent",
+        "pos": "adj.",
+        "meaning": "随后的（sub- 在下 + secut 跟随）"
       }
     ]
   },
@@ -2104,6 +2774,16 @@
         "word": "hierarchy",
         "pos": "n.",
         "meaning": "等级制度（hier 神圣 + arch 统治）"
+      },
+      {
+        "word": "anarchy",
+        "pos": "n.",
+        "meaning": "无政府状态（an- 无 + arch 首领）"
+      },
+      {
+        "word": "archetype",
+        "pos": "n.",
+        "meaning": "原型；典型（arche 起初 + type 型）"
       }
     ]
   },
@@ -2135,6 +2815,16 @@
         "word": "aristocracy",
         "pos": "n.",
         "meaning": "贵族统治"
+      },
+      {
+        "word": "theocracy",
+        "pos": "n.",
+        "meaning": "神权政治（theo 神 + cracy 统治）"
+      },
+      {
+        "word": "bureaucrat",
+        "pos": "n.",
+        "meaning": "官僚（bureau 衙门 + crat 掌权者）"
       }
     ]
   },
@@ -2166,6 +2856,16 @@
         "word": "panic",
         "pos": "n.",
         "meaning": "恐慌（源自牧神 Pan）"
+      },
+      {
+        "word": "panacea",
+        "pos": "n.",
+        "meaning": "万能药（pan- 全 + acea 治疗）"
+      },
+      {
+        "word": "pantheism",
+        "pos": "n.",
+        "meaning": "泛神论（pan- 全 + the 神 + -ism 主义）"
       }
     ]
   },
@@ -2197,6 +2897,16 @@
         "word": "telecommunications",
         "pos": "n.",
         "meaning": "电信"
+      },
+      {
+        "word": "telepathy",
+        "pos": "n.",
+        "meaning": "心灵感应（tele- 远 + path 感觉）"
+      },
+      {
+        "word": "telegram",
+        "pos": "n.",
+        "meaning": "电报（tele- 远 + gram 写）"
       }
     ]
   },
@@ -2228,6 +2938,16 @@
         "word": "microwave",
         "pos": "n.",
         "meaning": "微波；微波炉"
+      },
+      {
+        "word": "microbiology",
+        "pos": "n.",
+        "meaning": "微生物学（micro- 微小 + biology 生物学）"
+      },
+      {
+        "word": "microchip",
+        "pos": "n.",
+        "meaning": "微芯片（micro- 微小 + chip 芯片）"
       }
     ]
   },
@@ -2259,6 +2979,16 @@
         "word": "macro",
         "pos": "n.",
         "meaning": "宏指令"
+      },
+      {
+        "word": "macromolecule",
+        "pos": "n.",
+        "meaning": "大分子（macro- 大 + molecule 分子）"
+      },
+      {
+        "word": "macrobiotic",
+        "pos": "adj.",
+        "meaning": "长寿饮食的（macro- 大 + bio 生命）"
       }
     ]
   },
@@ -2290,6 +3020,16 @@
         "word": "bibliophile",
         "pos": "n.",
         "meaning": "藏书家"
+      },
+      {
+        "word": "philology",
+        "pos": "n.",
+        "meaning": "语文学（phil- 爱 + log 言辞）"
+      },
+      {
+        "word": "philately",
+        "pos": "n.",
+        "meaning": "集邮（phil- 爱 + ately 免税）"
       }
     ]
   },
@@ -2321,6 +3061,16 @@
         "word": "mislead",
         "pos": "v.",
         "meaning": "误导"
+      },
+      {
+        "word": "misconception",
+        "pos": "n.",
+        "meaning": "误解；错误观念（mis- 错误 + conception 概念）"
+      },
+      {
+        "word": "misinterpret",
+        "pos": "v.",
+        "meaning": "曲解；误释（mis- 错误 + interpret 解释）"
       }
     ]
   },
@@ -2352,6 +3102,16 @@
         "word": "acronym",
         "pos": "n.",
         "meaning": "首字母缩写"
+      },
+      {
+        "word": "pseudonym",
+        "pos": "n.",
+        "meaning": "笔名；假名（pseud 假 + nym 名）"
+      },
+      {
+        "word": "misnomer",
+        "pos": "n.",
+        "meaning": "用词不当；错误名称（mis- 错 + nom 名）"
       }
     ]
   },
@@ -2383,6 +3143,16 @@
         "word": "omniscient",
         "pos": "adj.",
         "meaning": "无所不知的"
+      },
+      {
+        "word": "prescient",
+        "pos": "adj.",
+        "meaning": "有先见之明的（pre- 预先 + sci 知道）"
+      },
+      {
+        "word": "subconscious",
+        "pos": "adj.",
+        "meaning": "潜意识的（sub- 在下 + conscious 有意识的）"
       }
     ]
   },
@@ -2414,6 +3184,16 @@
         "word": "ignore",
         "pos": "v.",
         "meaning": "忽视（i- 否 + gnos 知）"
+      },
+      {
+        "word": "prognosis",
+        "pos": "n.",
+        "meaning": "预后；预判（pro- 预先 + gnos 认识）"
+      },
+      {
+        "word": "agnostic",
+        "pos": "adj./n.",
+        "meaning": "不可知论的；不可知论者（a- 否 + gnost 知）"
       }
     ]
   },
@@ -2445,6 +3225,16 @@
         "word": "mnemonic",
         "pos": "n./adj.",
         "meaning": "助记法"
+      },
+      {
+        "word": "memorize",
+        "pos": "v.",
+        "meaning": "记住；背下来"
+      },
+      {
+        "word": "commemorate",
+        "pos": "v.",
+        "meaning": "纪念（com- 共同 + memor 记忆）"
       }
     ]
   },
@@ -2476,6 +3266,16 @@
         "word": "microcosm",
         "pos": "n.",
         "meaning": "微观世界"
+      },
+      {
+        "word": "cosmonaut",
+        "pos": "n.",
+        "meaning": "宇航员（cosm 宇宙 + naut 航行者）"
+      },
+      {
+        "word": "cosmology",
+        "pos": "n.",
+        "meaning": "宇宙学（cosm 宇宙 + -logy 学科）"
       }
     ]
   },
@@ -2507,6 +3307,16 @@
         "word": "disaster",
         "pos": "n.",
         "meaning": "灾难（dis- 坏 + aster 星）"
+      },
+      {
+        "word": "astrology",
+        "pos": "n.",
+        "meaning": "占星术（astro 星 + logy 学说）"
+      },
+      {
+        "word": "asteroid",
+        "pos": "n.",
+        "meaning": "小行星（aster 星 + -oid 像……的）"
       }
     ]
   },
@@ -2538,6 +3348,16 @@
         "word": "hydroelectric",
         "pos": "adj.",
         "meaning": "水力发电的"
+      },
+      {
+        "word": "hydrofoil",
+        "pos": "n.",
+        "meaning": "水翼船；水翼"
+      },
+      {
+        "word": "hydrant",
+        "pos": "n.",
+        "meaning": "消防栓（取水之物）"
       }
     ]
   },
@@ -2569,6 +3389,16 @@
         "word": "hypothermia",
         "pos": "n.",
         "meaning": "体温过低"
+      },
+      {
+        "word": "geothermal",
+        "pos": "adj.",
+        "meaning": "地热的（geo- 地 + therm 热）"
+      },
+      {
+        "word": "thermos",
+        "pos": "n.",
+        "meaning": "保温瓶；热水瓶"
       }
     ]
   },
@@ -2600,6 +3430,16 @@
         "word": "justice",
         "pos": "n.",
         "meaning": "正义；司法"
+      },
+      {
+        "word": "judgement",
+        "pos": "n.",
+        "meaning": "判断；判决"
+      },
+      {
+        "word": "adjudicate",
+        "pos": "v.",
+        "meaning": "裁定；判决（ad- 向 + judic 法官 + -ate）"
       }
     ]
   },
@@ -2631,6 +3471,16 @@
         "word": "legitimate",
         "pos": "adj.",
         "meaning": "合法的；正当的"
+      },
+      {
+        "word": "legalize",
+        "pos": "v.",
+        "meaning": "使合法化"
+      },
+      {
+        "word": "illegal",
+        "pos": "adj.",
+        "meaning": "非法的（il- 不 + legal 合法的）"
       }
     ]
   },
@@ -2662,6 +3512,16 @@
         "word": "cosmopolitan",
         "pos": "adj.",
         "meaning": "世界性的"
+      },
+      {
+        "word": "political",
+        "pos": "adj.",
+        "meaning": "政治的"
+      },
+      {
+        "word": "politician",
+        "pos": "n.",
+        "meaning": "政治家；政客"
       }
     ]
   },
@@ -2693,6 +3553,16 @@
         "word": "omnipotent",
         "pos": "adj.",
         "meaning": "全能的"
+      },
+      {
+        "word": "potency",
+        "pos": "n.",
+        "meaning": "效力；力量"
+      },
+      {
+        "word": "impotent",
+        "pos": "adj.",
+        "meaning": "无力的（im- 不 + pot 能 + -ent）"
       }
     ]
   },
@@ -2724,12 +3594,22 @@
         "word": "vain",
         "pos": "adj.",
         "meaning": "徒劳的；虚荣的"
+      },
+      {
+        "word": "vacuum",
+        "pos": "n.",
+        "meaning": "真空；吸尘器"
+      },
+      {
+        "word": "evacuate",
+        "pos": "v.",
+        "meaning": "疏散；撤离（e- 出 + vac 空 + -ate）"
       }
     ]
   },
   {
     "kind": "root",
-    "form": "cern / cret / crim",
+    "form": "cern（cert）/ cret / crim",
     "meaning": "分辨；筛选",
     "meaningEn": "to sift, to separate",
     "origin": "拉丁语 cernere",
@@ -2755,12 +3635,22 @@
         "word": "certain",
         "pos": "adj.",
         "meaning": "确定的"
+      },
+      {
+        "word": "ascertain",
+        "pos": "v.",
+        "meaning": "查明；确定（as- 使 + certain 确定的）"
+      },
+      {
+        "word": "discernment",
+        "pos": "n.",
+        "meaning": "洞察力；辨别力"
       }
     ]
   },
   {
     "kind": "root",
-    "form": "prob / prov",
+    "form": "prob / prov / proof",
     "meaning": "证明；试验",
     "meaningEn": "to test, to prove",
     "origin": "拉丁语 probare",
@@ -2786,6 +3676,16 @@
         "word": "probation",
         "pos": "n.",
         "meaning": "试用期；缓刑"
+      },
+      {
+        "word": "proof",
+        "pos": "n.",
+        "meaning": "证据；证明"
+      },
+      {
+        "word": "improbable",
+        "pos": "adj.",
+        "meaning": "不太可能的（im- 不 + probable 可能的）"
       }
     ]
   },
@@ -2817,6 +3717,16 @@
         "word": "sensation",
         "pos": "n.",
         "meaning": "感觉；轰动"
+      },
+      {
+        "word": "sensitive",
+        "pos": "adj.",
+        "meaning": "敏感的"
+      },
+      {
+        "word": "sensible",
+        "pos": "adj.",
+        "meaning": "明智的；合情理的"
       }
     ]
   },
@@ -2848,6 +3758,16 @@
         "word": "sacrifice",
         "pos": "n./v.",
         "meaning": "牺牲（使成神圣）"
+      },
+      {
+        "word": "factory",
+        "pos": "n.",
+        "meaning": "工厂（做东西的地方）"
+      },
+      {
+        "word": "manufacture",
+        "pos": "v./n.",
+        "meaning": "制造（manu 手 + fact 做）"
       }
     ]
   },
@@ -2879,6 +3799,16 @@
         "word": "degrade",
         "pos": "v.",
         "meaning": "降级；贬低"
+      },
+      {
+        "word": "centigrade",
+        "pos": "adj.",
+        "meaning": "摄氏的（百分度的）"
+      },
+      {
+        "word": "retrograde",
+        "pos": "adj.",
+        "meaning": "倒退的（retro- 向后 + grad 步）"
       }
     ]
   },
@@ -2910,6 +3840,16 @@
         "word": "complement",
         "pos": "n./v.",
         "meaning": "补充；补足物"
+      },
+      {
+        "word": "plentiful",
+        "pos": "adj.",
+        "meaning": "丰富的；充裕的"
+      },
+      {
+        "word": "replenish",
+        "pos": "v.",
+        "meaning": "补充；重新装满（re- 再 + plen 满 + -ish）"
       }
     ]
   },
@@ -2941,6 +3881,16 @@
         "word": "reprehend",
         "pos": "v.",
         "meaning": "责备"
+      },
+      {
+        "word": "comprehend",
+        "pos": "v.",
+        "meaning": "理解；包含"
+      },
+      {
+        "word": "prison",
+        "pos": "n.",
+        "meaning": "监狱（抓人之地）"
       }
     ]
   },
@@ -2972,6 +3922,16 @@
         "word": "particle",
         "pos": "n.",
         "meaning": "微粒"
+      },
+      {
+        "word": "partition",
+        "pos": "n./v.",
+        "meaning": "隔断；分割"
+      },
+      {
+        "word": "apart",
+        "pos": "adv.",
+        "meaning": "分开地；相隔"
       }
     ]
   },
@@ -3003,6 +3963,16 @@
         "word": "publish",
         "pos": "v.",
         "meaning": "出版"
+      },
+      {
+        "word": "republic",
+        "pos": "n.",
+        "meaning": "共和国（res 事务 + public 公众的）"
+      },
+      {
+        "word": "popularity",
+        "pos": "n.",
+        "meaning": "流行；受欢迎"
       }
     ]
   },
@@ -3034,6 +4004,16 @@
         "word": "sacred",
         "pos": "adj.",
         "meaning": "神圣的"
+      },
+      {
+        "word": "sanctity",
+        "pos": "n.",
+        "meaning": "神圣；圣洁"
+      },
+      {
+        "word": "sanctify",
+        "pos": "v.",
+        "meaning": "使神圣；赐福于"
       }
     ]
   },
@@ -3065,6 +4045,16 @@
         "word": "clinical",
         "pos": "adj.",
         "meaning": "临床的"
+      },
+      {
+        "word": "recline",
+        "pos": "v.",
+        "meaning": "斜倚；躺下（re- 向后 + clin 倾斜）"
+      },
+      {
+        "word": "inclination",
+        "pos": "n.",
+        "meaning": "倾向；倾斜（in- 向 + clin 倾斜 + -ation）"
       }
     ]
   },
@@ -3096,6 +4086,16 @@
         "word": "sediment",
         "pos": "n.",
         "meaning": "沉淀物（坐下之物）"
+      },
+      {
+        "word": "supersede",
+        "pos": "v.",
+        "meaning": "取代；接替（super- 在上 + sed 坐）"
+      },
+      {
+        "word": "assess",
+        "pos": "v.",
+        "meaning": "评估（坐在旁边审定）"
       }
     ]
   },
@@ -3127,6 +4127,16 @@
         "word": "respiration",
         "pos": "n.",
         "meaning": "呼吸"
+      },
+      {
+        "word": "aspiration",
+        "pos": "n.",
+        "meaning": "志向；渴望（a- 向 + spir 气 → 向往）"
+      },
+      {
+        "word": "dispirit",
+        "pos": "v.",
+        "meaning": "使气馁（dis- 去掉 + spirit 精神）"
       }
     ]
   },
@@ -3158,6 +4168,16 @@
         "word": "tribute",
         "pos": "n.",
         "meaning": "致敬；贡品"
+      },
+      {
+        "word": "tributary",
+        "pos": "n./adj.",
+        "meaning": "支流；进贡的（tribut 给予 + -ary）"
+      },
+      {
+        "word": "retribution",
+        "pos": "n.",
+        "meaning": "报应；惩罚（re- 回 + tribut 给 + -ion）"
       }
     ]
   },
@@ -3189,6 +4209,16 @@
         "word": "vacate",
         "pos": "v.",
         "meaning": "腾出；辞去"
+      },
+      {
+        "word": "vacant",
+        "pos": "adj.",
+        "meaning": "空的；空缺的（vac 空 + -ant）"
+      },
+      {
+        "word": "vacuousness",
+        "pos": "n.",
+        "meaning": "空洞；茫然"
       }
     ]
   },
@@ -3220,6 +4250,16 @@
         "word": "vehement",
         "pos": "adj.",
         "meaning": "激烈的（被带着冲）"
+      },
+      {
+        "word": "vehicular",
+        "pos": "adj.",
+        "meaning": "车辆的；运输工具的"
+      },
+      {
+        "word": "vehemence",
+        "pos": "n.",
+        "meaning": "激烈；猛烈"
       }
     ]
   },
@@ -3251,6 +4291,16 @@
         "word": "armament",
         "pos": "n.",
         "meaning": "军备"
+      },
+      {
+        "word": "armistice",
+        "pos": "n.",
+        "meaning": "停战（arm 武器 + -istice 停止）"
+      },
+      {
+        "word": "disarmament",
+        "pos": "n.",
+        "meaning": "裁军（dis- 解除 + arm 武装 + -ament）"
       }
     ]
   },
@@ -3282,6 +4332,16 @@
         "word": "abridge",
         "pos": "v.",
         "meaning": "删节；缩短"
+      },
+      {
+        "word": "brevet",
+        "pos": "n.",
+        "meaning": "名誉晋升令（brev 短 + -et → 简短文书）"
+      },
+      {
+        "word": "briefcase",
+        "pos": "n.",
+        "meaning": "公文包（brief 简短 + case 箱）"
       }
     ]
   },
@@ -3313,6 +4373,16 @@
         "word": "decelerate",
         "pos": "v.",
         "meaning": "减速"
+      },
+      {
+        "word": "accelerator",
+        "pos": "n.",
+        "meaning": "加速器；油门（ac- 向 + celer 快 + -ator）"
+      },
+      {
+        "word": "celeriac",
+        "pos": "n.",
+        "meaning": "块根芹（celer 快 + -iac）"
       }
     ]
   },
@@ -3344,6 +4414,16 @@
         "word": "docile",
         "pos": "adj.",
         "meaning": "温顺的（易教的）"
+      },
+      {
+        "word": "doctrinaire",
+        "pos": "adj./n.",
+        "meaning": "教条主义的（人）（doctrin 教义 + -aire）"
+      },
+      {
+        "word": "documentary",
+        "pos": "n./adj.",
+        "meaning": "纪录片；文件的（document 文件 + -ary）"
       }
     ]
   },
@@ -3375,6 +4455,16 @@
         "word": "erratic",
         "pos": "adj.",
         "meaning": "不稳定的；古怪的"
+      },
+      {
+        "word": "aberration",
+        "pos": "n.",
+        "meaning": "偏差；反常（ab- 离开 + err 漫游 + -ation）"
+      },
+      {
+        "word": "inerrant",
+        "pos": "adj.",
+        "meaning": "绝无错误的（in- 不 + err 错 + -ant）"
       }
     ]
   },
@@ -3406,6 +4496,16 @@
         "word": "generous",
         "pos": "adj.",
         "meaning": "慷慨的"
+      },
+      {
+        "word": "progeny",
+        "pos": "n.",
+        "meaning": "后代；子孙（pro- 向前 + gen 生 + -y）"
+      },
+      {
+        "word": "degenerate",
+        "pos": "v./adj.",
+        "meaning": "退化；堕落的（de- 向下 + gener 种类）"
       }
     ]
   },
@@ -3437,6 +4537,16 @@
         "word": "inherent",
         "pos": "adj.",
         "meaning": "固有的（内在粘着）"
+      },
+      {
+        "word": "adhesive",
+        "pos": "n./adj.",
+        "meaning": "粘合剂；有粘性的（ad- 向 + hes 粘 + -ive）"
+      },
+      {
+        "word": "incoherent",
+        "pos": "adj.",
+        "meaning": "语无伦次的（in- 不 + coherent 连贯的）"
       }
     ]
   },
@@ -3468,6 +4578,16 @@
         "word": "library",
         "pos": "n.",
         "meaning": "图书馆"
+      },
+      {
+        "word": "liberate",
+        "pos": "v.",
+        "meaning": "解放；释放（liber 自由 + -ate）"
+      },
+      {
+        "word": "liberalize",
+        "pos": "v.",
+        "meaning": "使自由化；放宽限制"
       }
     ]
   },
@@ -3499,6 +4619,16 @@
         "word": "illustrate",
         "pos": "v.",
         "meaning": "说明；举例（使有光）"
+      },
+      {
+        "word": "elucidate",
+        "pos": "v.",
+        "meaning": "阐明（e- 向外 + lucid 明亮 + -ate）"
+      },
+      {
+        "word": "luminary",
+        "pos": "n.",
+        "meaning": "发光体；杰出人物（lumin 光 + -ary）"
       }
     ]
   },
@@ -3530,6 +4660,16 @@
         "word": "malnutrition",
         "pos": "n.",
         "meaning": "营养不良"
+      },
+      {
+        "word": "nutritious",
+        "pos": "adj.",
+        "meaning": "有营养的（nutrit 营养 + -ious）"
+      },
+      {
+        "word": "nutriment",
+        "pos": "n.",
+        "meaning": "营养物（nutri 营养 + -ment）"
       }
     ]
   },
@@ -3561,6 +4701,16 @@
         "word": "deputy",
         "pos": "n.",
         "meaning": "副手；代表"
+      },
+      {
+        "word": "impute",
+        "pos": "v.",
+        "meaning": "归咎于；归因于（im- 向 + put 计算）"
+      },
+      {
+        "word": "amputate",
+        "pos": "v.",
+        "meaning": "截肢（am- 周围 + put 修剪）"
       }
     ]
   },
@@ -3592,6 +4742,16 @@
         "word": "dissolve",
         "pos": "v.",
         "meaning": "溶解；解散"
+      },
+      {
+        "word": "solvent",
+        "pos": "n./adj.",
+        "meaning": "溶剂；有偿付能力的（solv 松开 + -ent）"
+      },
+      {
+        "word": "dissolute",
+        "pos": "adj.",
+        "meaning": "放荡的（dis- 散开 + solut 松开）"
       }
     ]
   },
@@ -3623,6 +4783,16 @@
         "word": "temper",
         "pos": "n./v.",
         "meaning": "脾气；调和"
+      },
+      {
+        "word": "temporal",
+        "pos": "adj.",
+        "meaning": "时间的；世俗的（tempor 时间 + -al）"
+      },
+      {
+        "word": "contemporaneous",
+        "pos": "adj.",
+        "meaning": "同时代的（con- 共同 + tempor 时间 + -aneous）"
       }
     ]
   },
@@ -3654,6 +4824,16 @@
         "word": "evanescent",
         "pos": "adj.",
         "meaning": "短暂的；易逝的"
+      },
+      {
+        "word": "evanescence",
+        "pos": "n.",
+        "meaning": "短暂易逝（转瞬消失）"
+      },
+      {
+        "word": "evacuate",
+        "pos": "v.",
+        "meaning": "撤空；疏散（e- 出 + vac 空 + -ate）"
       }
     ]
   },
@@ -3685,6 +4865,16 @@
         "word": "adventure",
         "pos": "n.",
         "meaning": "冒险（来到面前的事）"
+      },
+      {
+        "word": "avenue",
+        "pos": "n.",
+        "meaning": "大道；途径（a- 向 + ven 来 + -ue）"
+      },
+      {
+        "word": "convention",
+        "pos": "n.",
+        "meaning": "会议；惯例（con- 共同 + vent 来 + -ion）"
       }
     ]
   },
@@ -3716,6 +4906,16 @@
         "word": "prosecute",
         "pos": "v.",
         "meaning": "起诉"
+      },
+      {
+        "word": "consequence",
+        "pos": "n.",
+        "meaning": "后果；结果（con- 共同 + sequ 跟随 + -ence）"
+      },
+      {
+        "word": "subsequent",
+        "pos": "adj.",
+        "meaning": "随后的（sub- 在后 + sequ 跟随 + -ent）"
       }
     ]
   },
@@ -3747,6 +4947,16 @@
         "word": "unfair",
         "pos": "adj.",
         "meaning": "不公平的"
+      },
+      {
+        "word": "unusual",
+        "pos": "adj.",
+        "meaning": "不寻常的（un- 不 + usual 平常的）"
+      },
+      {
+        "word": "uncover",
+        "pos": "v.",
+        "meaning": "揭开；揭露（把覆盖物去掉）"
       }
     ]
   },
@@ -3778,6 +4988,16 @@
         "word": "disorder",
         "pos": "n.",
         "meaning": "混乱；失调"
+      },
+      {
+        "word": "disagree",
+        "pos": "v.",
+        "meaning": "不同意；有分歧"
+      },
+      {
+        "word": "distance",
+        "pos": "n.",
+        "meaning": "距离；远方（dis- 分开 + stance 站立）"
       }
     ]
   },
@@ -3809,6 +5029,16 @@
         "word": "recall",
         "pos": "v.",
         "meaning": "回忆起；召回"
+      },
+      {
+        "word": "recycle",
+        "pos": "v.",
+        "meaning": "回收利用（再循环一次）"
+      },
+      {
+        "word": "remind",
+        "pos": "v.",
+        "meaning": "提醒（再次想起）"
       }
     ]
   },
@@ -3840,6 +5070,16 @@
         "word": "precede",
         "pos": "v.",
         "meaning": "先于；在…之前"
+      },
+      {
+        "word": "predict",
+        "pos": "v.",
+        "meaning": "预测（pre- 预先 + dict 说）"
+      },
+      {
+        "word": "prevent",
+        "pos": "v.",
+        "meaning": "预防（pre- 预先 + vent 来）"
       }
     ]
   },
@@ -3871,6 +5111,16 @@
         "word": "propel",
         "pos": "v.",
         "meaning": "推进；驱动"
+      },
+      {
+        "word": "promote",
+        "pos": "v.",
+        "meaning": "促进；晋升（向前推动）"
+      },
+      {
+        "word": "protest",
+        "pos": "v./n.",
+        "meaning": "抗议（pro- 公开 + test 作证）"
       }
     ]
   },
@@ -3902,6 +5152,16 @@
         "word": "illegal",
         "pos": "adj.",
         "meaning": "非法的（il- 不 + legal 合法的）"
+      },
+      {
+        "word": "indirect",
+        "pos": "adj.",
+        "meaning": "间接的（in- 不 + direct 直接的）"
+      },
+      {
+        "word": "irregular",
+        "pos": "adj.",
+        "meaning": "不规则的（ir- 不 + regular 规则的）"
       }
     ]
   },
@@ -3933,6 +5193,16 @@
         "word": "nonstop",
         "pos": "adj./adv.",
         "meaning": "不停的；直达的"
+      },
+      {
+        "word": "nonfiction",
+        "pos": "n.",
+        "meaning": "非虚构作品（纪实文学）"
+      },
+      {
+        "word": "nonviolent",
+        "pos": "adj.",
+        "meaning": "非暴力的"
       }
     ]
   },
@@ -3964,6 +5234,16 @@
         "word": "overseas",
         "pos": "adj./adv.",
         "meaning": "海外的；在海外"
+      },
+      {
+        "word": "overweight",
+        "pos": "adj.",
+        "meaning": "超重的（超过正常体重）"
+      },
+      {
+        "word": "overreact",
+        "pos": "v.",
+        "meaning": "反应过度"
       }
     ]
   },
@@ -3995,6 +5275,16 @@
         "word": "underline",
         "pos": "v.",
         "meaning": "在…下画线；强调"
+      },
+      {
+        "word": "underwater",
+        "pos": "adj./adv.",
+        "meaning": "水下的；在水下"
+      },
+      {
+        "word": "undertake",
+        "pos": "v.",
+        "meaning": "着手做；承担（把事情揽到手下）"
       }
     ]
   },
@@ -4026,6 +5316,16 @@
         "word": "subconscious",
         "pos": "adj.",
         "meaning": "潜意识的"
+      },
+      {
+        "word": "subtract",
+        "pos": "v.",
+        "meaning": "减去（sub- 在下 + tract 拉，往下抽走）"
+      },
+      {
+        "word": "subscribe",
+        "pos": "v.",
+        "meaning": "订阅；认捐（在文件下方签名）"
       }
     ]
   },
@@ -4057,6 +5357,16 @@
         "word": "supernatural",
         "pos": "adj.",
         "meaning": "超自然的"
+      },
+      {
+        "word": "superpower",
+        "pos": "n.",
+        "meaning": "超级大国；超能力"
+      },
+      {
+        "word": "superhuman",
+        "pos": "adj.",
+        "meaning": "超人的（超出常人的）"
       }
     ]
   },
@@ -4088,6 +5398,16 @@
         "word": "enclose",
         "pos": "v.",
         "meaning": "围住；随信附上"
+      },
+      {
+        "word": "encourage",
+        "pos": "v.",
+        "meaning": "鼓励（使有勇气）"
+      },
+      {
+        "word": "embrace",
+        "pos": "v./n.",
+        "meaning": "拥抱；欣然接受"
       }
     ]
   },
@@ -4119,6 +5439,16 @@
         "word": "transparent",
         "pos": "adj.",
         "meaning": "透明的（光能穿过）"
+      },
+      {
+        "word": "transport",
+        "pos": "v./n.",
+        "meaning": "运输（trans- 越过 + port 运）"
+      },
+      {
+        "word": "transmit",
+        "pos": "v.",
+        "meaning": "传送；传播（送过去）"
       }
     ]
   },
@@ -4150,6 +5480,16 @@
         "word": "interview",
         "pos": "n./v.",
         "meaning": "面试；采访"
+      },
+      {
+        "word": "interfere",
+        "pos": "v.",
+        "meaning": "干扰；干涉（插到中间）"
+      },
+      {
+        "word": "internet",
+        "pos": "n.",
+        "meaning": "互联网（inter- 相互 + net 网）"
       }
     ]
   },
@@ -4181,6 +5521,16 @@
         "word": "correct",
         "pos": "adj./v.",
         "meaning": "正确的；改正"
+      },
+      {
+        "word": "connect",
+        "pos": "v.",
+        "meaning": "连接（con- 一起 + nect 系）"
+      },
+      {
+        "word": "compress",
+        "pos": "v.",
+        "meaning": "压缩（com- 一起 + press 压）"
       }
     ]
   },
@@ -4212,6 +5562,16 @@
         "word": "detect",
         "pos": "v.",
         "meaning": "发现；查明（把盖子拿掉）"
+      },
+      {
+        "word": "decline",
+        "pos": "v./n.",
+        "meaning": "下降；衰退；婉拒"
+      },
+      {
+        "word": "destroy",
+        "pos": "v.",
+        "meaning": "破坏；摧毁（de- 向下 + stroy 堆，把堆推倒）"
       }
     ]
   },
@@ -4243,6 +5603,16 @@
         "word": "exceed",
         "pos": "v.",
         "meaning": "超过（走出去）"
+      },
+      {
+        "word": "exit",
+        "pos": "n./v.",
+        "meaning": "出口；退出（往外走）"
+      },
+      {
+        "word": "expose",
+        "pos": "v.",
+        "meaning": "暴露；使接触（ex- 向外 + pos 放）"
       }
     ]
   },
@@ -4274,6 +5644,16 @@
         "word": "accompany",
         "pos": "v.",
         "meaning": "陪伴（跟着一起去）"
+      },
+      {
+        "word": "advocate",
+        "pos": "v./n.",
+        "meaning": "提倡；拥护者（ad- 朝向 + voc 呼叫）"
+      },
+      {
+        "word": "accomplish",
+        "pos": "v.",
+        "meaning": "完成；实现"
       }
     ]
   },
@@ -4305,6 +5685,16 @@
         "word": "oblige",
         "pos": "v.",
         "meaning": "迫使；使感激"
+      },
+      {
+        "word": "obtain",
+        "pos": "v.",
+        "meaning": "获得（朝向目标拿住）"
+      },
+      {
+        "word": "occur",
+        "pos": "v.",
+        "meaning": "发生；出现（迎面而来）"
       }
     ]
   },
@@ -4336,6 +5726,16 @@
         "word": "persuade",
         "pos": "v.",
         "meaning": "说服（彻底劝动）"
+      },
+      {
+        "word": "perceive",
+        "pos": "v.",
+        "meaning": "察觉；理解（per- 彻底 + ceive 抓取）"
+      },
+      {
+        "word": "permit",
+        "pos": "v./n.",
+        "meaning": "允许；许可证（让通过）"
       }
     ]
   },
@@ -4367,6 +5767,16 @@
         "word": "sever",
         "pos": "v.",
         "meaning": "切断；断绝"
+      },
+      {
+        "word": "secession",
+        "pos": "n.",
+        "meaning": "退出；脱离（se- 分开 + cess 走）"
+      },
+      {
+        "word": "segregate",
+        "pos": "v.",
+        "meaning": "隔离；分开（se- 分开 + greg 群）"
       }
     ]
   },
@@ -4398,6 +5808,16 @@
         "word": "synchronize",
         "pos": "v.",
         "meaning": "使同步"
+      },
+      {
+        "word": "sympathy",
+        "pos": "n.",
+        "meaning": "同情（sym- 共同 + path 感受）"
+      },
+      {
+        "word": "synthesis",
+        "pos": "n.",
+        "meaning": "合成；综合（syn- 一起 + thesis 放置）"
       }
     ]
   },
@@ -4429,6 +5849,16 @@
         "word": "controversy",
         "pos": "n.",
         "meaning": "争议（意见相背）"
+      },
+      {
+        "word": "contradict",
+        "pos": "v.",
+        "meaning": "反驳；与……矛盾（contra- 相反 + dict 说）"
+      },
+      {
+        "word": "counterpart",
+        "pos": "n.",
+        "meaning": "对应的人或物（counter- 相对 + part 部分）"
       }
     ]
   },
@@ -4460,6 +5890,16 @@
         "word": "extravagant",
         "pos": "adj.",
         "meaning": "奢侈的（花到外面去了）"
+      },
+      {
+        "word": "extraterrestrial",
+        "pos": "adj./n.",
+        "meaning": "地球外的；外星生物（extra- 之外 + terrestrial 地球的）"
+      },
+      {
+        "word": "extrasensory",
+        "pos": "adj.",
+        "meaning": "超感官的（extra- 超出 + sensory 感官的）"
       }
     ]
   },
@@ -4491,6 +5931,16 @@
         "word": "foreword",
         "pos": "n.",
         "meaning": "前言"
+      },
+      {
+        "word": "foremost",
+        "pos": "adj./adv.",
+        "meaning": "最重要的；首要地（fore- 在前 + most 最）"
+      },
+      {
+        "word": "foreshadow",
+        "pos": "v.",
+        "meaning": "预示（fore- 预先 + shadow 投下影子）"
       }
     ]
   },
@@ -4522,6 +5972,16 @@
         "word": "hypersensitive",
         "pos": "adj.",
         "meaning": "过敏的；过度敏感的"
+      },
+      {
+        "word": "hypertext",
+        "pos": "n.",
+        "meaning": "超文本"
+      },
+      {
+        "word": "hyperbole",
+        "pos": "n.",
+        "meaning": "夸张（hyper- 过度 + bole 扔）"
       }
     ]
   },
@@ -4553,6 +6013,16 @@
         "word": "hypoglycemia",
         "pos": "n.",
         "meaning": "低血糖"
+      },
+      {
+        "word": "hypothermia",
+        "pos": "n.",
+        "meaning": "体温过低（hypo- 低于 + therm 热）"
+      },
+      {
+        "word": "hypothetical",
+        "pos": "adj.",
+        "meaning": "假设的（hypo- 在下 + thet 放置）"
       }
     ]
   },
@@ -4584,6 +6054,16 @@
         "word": "circumvent",
         "pos": "v.",
         "meaning": "规避（绕过去）"
+      },
+      {
+        "word": "circumspect",
+        "pos": "adj.",
+        "meaning": "谨慎的（circum- 四周 + spect 看）"
+      },
+      {
+        "word": "circumscribe",
+        "pos": "v.",
+        "meaning": "限制；划定范围（circum- 环绕 + scrib 画）"
       }
     ]
   },
@@ -4615,6 +6095,16 @@
         "word": "posterior",
         "pos": "adj.",
         "meaning": "后面的；其次的"
+      },
+      {
+        "word": "postscript",
+        "pos": "n.",
+        "meaning": "附言；后记（post- 之后 + script 写）"
+      },
+      {
+        "word": "postnatal",
+        "pos": "adj.",
+        "meaning": "产后的（post- 之后 + natal 出生的）"
       }
     ]
   },
@@ -4646,6 +6136,16 @@
         "word": "semicolon",
         "pos": "n.",
         "meaning": "分号"
+      },
+      {
+        "word": "semiautomatic",
+        "pos": "adj.",
+        "meaning": "半自动的"
+      },
+      {
+        "word": "semitrailer",
+        "pos": "n.",
+        "meaning": "半挂车"
       }
     ]
   },
@@ -4677,6 +6177,16 @@
         "word": "multinational",
         "pos": "adj.",
         "meaning": "跨国的"
+      },
+      {
+        "word": "multilingual",
+        "pos": "adj.",
+        "meaning": "多语言的"
+      },
+      {
+        "word": "multicultural",
+        "pos": "adj.",
+        "meaning": "多元文化的"
       }
     ]
   },
@@ -4708,6 +6218,16 @@
         "word": "unilateral",
         "pos": "adj.",
         "meaning": "单方面的"
+      },
+      {
+        "word": "unify",
+        "pos": "v.",
+        "meaning": "统一；使一致（uni- 单一 + fy 使……）"
+      },
+      {
+        "word": "unicorn",
+        "pos": "n.",
+        "meaning": "独角兽（uni- 单一 + corn 角）"
       }
     ]
   },
@@ -4739,6 +6259,16 @@
         "word": "binary",
         "pos": "adj.",
         "meaning": "二进制的；二元的"
+      },
+      {
+        "word": "biannual",
+        "pos": "adj.",
+        "meaning": "一年两次的（bi- 二 + annual 年的）"
+      },
+      {
+        "word": "bipartisan",
+        "pos": "adj.",
+        "meaning": "两党的；跨党派的（bi- 二 + partisan 党派的）"
       }
     ]
   },
@@ -4770,6 +6300,16 @@
         "word": "triple",
         "pos": "adj./v.",
         "meaning": "三倍的；增至三倍"
+      },
+      {
+        "word": "tripod",
+        "pos": "n.",
+        "meaning": "三脚架（tri- 三 + pod 脚）"
+      },
+      {
+        "word": "trio",
+        "pos": "n.",
+        "meaning": "三重奏；三人组"
       }
     ]
   },
@@ -4801,6 +6341,16 @@
         "word": "autograph",
         "pos": "n.",
         "meaning": "亲笔签名"
+      },
+      {
+        "word": "automobile",
+        "pos": "n.",
+        "meaning": "汽车（auto- 自己 + mobile 会动的）"
+      },
+      {
+        "word": "autopilot",
+        "pos": "n.",
+        "meaning": "自动驾驶仪"
       }
     ]
   },
@@ -4832,6 +6382,16 @@
         "word": "coincidence",
         "pos": "n.",
         "meaning": "巧合（一起落到同一点）"
+      },
+      {
+        "word": "coauthor",
+        "pos": "n.",
+        "meaning": "合著者（co- 共同 + author 作者）"
+      },
+      {
+        "word": "coworker",
+        "pos": "n.",
+        "meaning": "同事（co- 共同 + worker 工作者）"
       }
     ]
   },
@@ -4863,6 +6423,16 @@
         "word": "dystopia",
         "pos": "n.",
         "meaning": "反乌托邦"
+      },
+      {
+        "word": "dyspepsia",
+        "pos": "n.",
+        "meaning": "消化不良（dys- 不良 + peps 消化）"
+      },
+      {
+        "word": "dyspraxia",
+        "pos": "n.",
+        "meaning": "运用功能障碍（dys- 困难 + prax 动作）"
       }
     ]
   },
@@ -4894,6 +6464,16 @@
         "word": "euthanasia",
         "pos": "n.",
         "meaning": "安乐死（无痛的善终）"
+      },
+      {
+        "word": "eulogy",
+        "pos": "n.",
+        "meaning": "悼词；颂词（eu- 好 + log 说）"
+      },
+      {
+        "word": "eugenics",
+        "pos": "n.",
+        "meaning": "优生学（eu- 优 + gen 产生）"
       }
     ]
   },
@@ -4925,6 +6505,16 @@
         "word": "pseudocode",
         "pos": "n.",
         "meaning": "伪代码"
+      },
+      {
+        "word": "pseudorandom",
+        "pos": "adj.",
+        "meaning": "伪随机的"
+      },
+      {
+        "word": "pseudopod",
+        "pos": "n.",
+        "meaning": "伪足（pseudo- 假 + pod 脚）"
       }
     ]
   },
@@ -4956,6 +6546,16 @@
         "word": "vicarious",
         "pos": "adj.",
         "meaning": "间接感受到的；代人受过的"
+      },
+      {
+        "word": "vice-admiral",
+        "pos": "n.",
+        "meaning": "海军中将（vice- 副 + admiral 上将）"
+      },
+      {
+        "word": "vice-consul",
+        "pos": "n.",
+        "meaning": "副领事"
       }
     ]
   },
@@ -4987,6 +6587,16 @@
         "word": "expression",
         "pos": "n.",
         "meaning": "表达；表情"
+      },
+      {
+        "word": "protection",
+        "pos": "n.",
+        "meaning": "保护（protect 的名词形式）"
+      },
+      {
+        "word": "invitation",
+        "pos": "n.",
+        "meaning": "邀请；请柬"
       }
     ]
   },
@@ -5018,6 +6628,16 @@
         "word": "movement",
         "pos": "n.",
         "meaning": "运动；动作"
+      },
+      {
+        "word": "equipment",
+        "pos": "n.",
+        "meaning": "设备；装备"
+      },
+      {
+        "word": "argument",
+        "pos": "n.",
+        "meaning": "争论；论点"
       }
     ]
   },
@@ -5049,6 +6669,16 @@
         "word": "weakness",
         "pos": "n.",
         "meaning": "弱点；虚弱"
+      },
+      {
+        "word": "sadness",
+        "pos": "n.",
+        "meaning": "悲伤"
+      },
+      {
+        "word": "tiredness",
+        "pos": "n.",
+        "meaning": "疲倦"
       }
     ]
   },
@@ -5080,6 +6710,16 @@
         "word": "creator",
         "pos": "n.",
         "meaning": "创造者"
+      },
+      {
+        "word": "writer",
+        "pos": "n.",
+        "meaning": "作家；作者"
+      },
+      {
+        "word": "inventor",
+        "pos": "n.",
+        "meaning": "发明家（拉丁语来源，用 -or）"
       }
     ]
   },
@@ -5111,6 +6751,16 @@
         "word": "optimist",
         "pos": "n.",
         "meaning": "乐观主义者"
+      },
+      {
+        "word": "journalist",
+        "pos": "n.",
+        "meaning": "记者"
+      },
+      {
+        "word": "pianist",
+        "pos": "n.",
+        "meaning": "钢琴家"
       }
     ]
   },
@@ -5142,6 +6792,16 @@
         "word": "wonderful",
         "pos": "adj.",
         "meaning": "精彩的"
+      },
+      {
+        "word": "helpful",
+        "pos": "adj.",
+        "meaning": "有帮助的"
+      },
+      {
+        "word": "thankful",
+        "pos": "adj.",
+        "meaning": "感激的（心里装满感谢）"
       }
     ]
   },
@@ -5173,6 +6833,16 @@
         "word": "wireless",
         "pos": "adj.",
         "meaning": "无线的"
+      },
+      {
+        "word": "fearless",
+        "pos": "adj.",
+        "meaning": "无畏的（没有恐惧）"
+      },
+      {
+        "word": "useless",
+        "pos": "adj.",
+        "meaning": "无用的"
       }
     ]
   },
@@ -5204,6 +6874,16 @@
         "word": "sensible",
         "pos": "adj.",
         "meaning": "明智的；可感知的"
+      },
+      {
+        "word": "valuable",
+        "pos": "adj.",
+        "meaning": "有价值的；贵重的"
+      },
+      {
+        "word": "visible",
+        "pos": "adj.",
+        "meaning": "可见的（拉丁语来源，用 -ible）"
       }
     ]
   },
@@ -5235,6 +6915,16 @@
         "word": "gradually",
         "pos": "adv.",
         "meaning": "逐渐地"
+      },
+      {
+        "word": "sadly",
+        "pos": "adv.",
+        "meaning": "悲伤地；遗憾地"
+      },
+      {
+        "word": "typically",
+        "pos": "adv.",
+        "meaning": "典型地；通常"
       }
     ]
   },
@@ -5266,6 +6956,16 @@
         "word": "curious",
         "pos": "adj.",
         "meaning": "好奇的"
+      },
+      {
+        "word": "serious",
+        "pos": "adj.",
+        "meaning": "严肃的；严重的"
+      },
+      {
+        "word": "generous",
+        "pos": "adj.",
+        "meaning": "慷慨的；大方的"
       }
     ]
   },
@@ -5297,6 +6997,16 @@
         "word": "security",
         "pos": "n.",
         "meaning": "安全"
+      },
+      {
+        "word": "activity",
+        "pos": "n.",
+        "meaning": "活动；活跃（active → activity）"
+      },
+      {
+        "word": "possibility",
+        "pos": "n.",
+        "meaning": "可能性（possible → possibility）"
       }
     ]
   },
@@ -5328,6 +7038,16 @@
         "word": "patience",
         "pos": "n.",
         "meaning": "耐心"
+      },
+      {
+        "word": "distance",
+        "pos": "n.",
+        "meaning": "距离"
+      },
+      {
+        "word": "confidence",
+        "pos": "n.",
+        "meaning": "信心；信任"
       }
     ]
   },
@@ -5359,6 +7079,16 @@
         "word": "capitalism",
         "pos": "n.",
         "meaning": "资本主义"
+      },
+      {
+        "word": "socialism",
+        "pos": "n.",
+        "meaning": "社会主义"
+      },
+      {
+        "word": "journalism",
+        "pos": "n.",
+        "meaning": "新闻业；新闻工作"
       }
     ]
   },
@@ -5390,6 +7120,16 @@
         "word": "memorize",
         "pos": "v.",
         "meaning": "记住；背诵"
+      },
+      {
+        "word": "recognize",
+        "pos": "v.",
+        "meaning": "认出；承认"
+      },
+      {
+        "word": "apologize",
+        "pos": "v.",
+        "meaning": "道歉（英式亦作 apologise）"
       }
     ]
   },
@@ -5421,6 +7161,16 @@
         "word": "purify",
         "pos": "v.",
         "meaning": "净化"
+      },
+      {
+        "word": "beautify",
+        "pos": "v.",
+        "meaning": "美化（beauty → beautify）"
+      },
+      {
+        "word": "satisfy",
+        "pos": "v.",
+        "meaning": "使满意（-fy 变体）"
       }
     ]
   },
@@ -5452,6 +7202,16 @@
         "word": "impressive",
         "pos": "adj.",
         "meaning": "令人印象深刻的"
+      },
+      {
+        "word": "attractive",
+        "pos": "adj.",
+        "meaning": "有吸引力的"
+      },
+      {
+        "word": "expensive",
+        "pos": "adj.",
+        "meaning": "昂贵的"
       }
     ]
   },
@@ -5483,6 +7243,16 @@
         "word": "approval",
         "pos": "n.",
         "meaning": "批准；赞成"
+      },
+      {
+        "word": "musical",
+        "pos": "adj.",
+        "meaning": "音乐的"
+      },
+      {
+        "word": "refusal",
+        "pos": "n.",
+        "meaning": "拒绝（refuse → refusal）"
       }
     ]
   },
@@ -5514,6 +7284,16 @@
         "word": "dramatic",
         "pos": "adj.",
         "meaning": "戏剧性的"
+      },
+      {
+        "word": "economic",
+        "pos": "adj.",
+        "meaning": "经济的"
+      },
+      {
+        "word": "public",
+        "pos": "adj.",
+        "meaning": "公共的；公开的"
       }
     ]
   },
@@ -5545,6 +7325,16 @@
         "word": "shortage",
         "pos": "n.",
         "meaning": "短缺"
+      },
+      {
+        "word": "language",
+        "pos": "n.",
+        "meaning": "语言"
+      },
+      {
+        "word": "village",
+        "pos": "n.",
+        "meaning": "村庄"
       }
     ]
   },
@@ -5576,6 +7366,16 @@
         "word": "scholarship",
         "pos": "n.",
         "meaning": "奖学金；学问"
+      },
+      {
+        "word": "relationship",
+        "pos": "n.",
+        "meaning": "关系（relation + -ship）"
+      },
+      {
+        "word": "ownership",
+        "pos": "n.",
+        "meaning": "所有权（owner + -ship）"
       }
     ]
   },
@@ -5607,6 +7407,16 @@
         "word": "adulthood",
         "pos": "n.",
         "meaning": "成年"
+      },
+      {
+        "word": "brotherhood",
+        "pos": "n.",
+        "meaning": "兄弟情谊；同仁团体（brother + -hood）"
+      },
+      {
+        "word": "nationhood",
+        "pos": "n.",
+        "meaning": "国家地位；民族独立状态（nation + -hood）"
       }
     ]
   },
@@ -5638,6 +7448,16 @@
         "word": "boredom",
         "pos": "n.",
         "meaning": "无聊"
+      },
+      {
+        "word": "stardom",
+        "pos": "n.",
+        "meaning": "明星地位；明星界（star + -dom）"
+      },
+      {
+        "word": "martyrdom",
+        "pos": "n.",
+        "meaning": "殉难；殉道（martyr + -dom）"
       }
     ]
   },
@@ -5669,6 +7489,16 @@
         "word": "afterward",
         "pos": "adv.",
         "meaning": "之后"
+      },
+      {
+        "word": "homeward",
+        "pos": "adv./adj.",
+        "meaning": "朝家的方向；回家的"
+      },
+      {
+        "word": "onward",
+        "pos": "adv./adj.",
+        "meaning": "向前；继续向前的"
       }
     ]
   },
@@ -5700,6 +7530,16 @@
         "word": "salary",
         "pos": "n.",
         "meaning": "薪水"
+      },
+      {
+        "word": "literary",
+        "pos": "adj.",
+        "meaning": "文学的；文人的"
+      },
+      {
+        "word": "arbitrary",
+        "pos": "adj.",
+        "meaning": "任意的；专断的"
       }
     ]
   },
@@ -5731,6 +7571,16 @@
         "word": "accurate",
         "pos": "adj.",
         "meaning": "准确的"
+      },
+      {
+        "word": "passionate",
+        "pos": "adj.",
+        "meaning": "热情的；充满激情的"
+      },
+      {
+        "word": "elaborate",
+        "pos": "v./adj.",
+        "meaning": "精心制作；精心设计的"
       }
     ]
   },
@@ -5762,6 +7612,16 @@
         "word": "golden",
         "pos": "adj.",
         "meaning": "金色的；黄金般的"
+      },
+      {
+        "word": "frighten",
+        "pos": "v.",
+        "meaning": "使害怕；吓唬"
+      },
+      {
+        "word": "lengthen",
+        "pos": "v.",
+        "meaning": "加长；延长"
       }
     ]
   },
@@ -5793,6 +7653,16 @@
         "word": "quarrelsome",
         "pos": "adj.",
         "meaning": "好争吵的"
+      },
+      {
+        "word": "lonesome",
+        "pos": "adj.",
+        "meaning": "孤独的；寂寞的"
+      },
+      {
+        "word": "burdensome",
+        "pos": "adj.",
+        "meaning": "繁重的；累赘的"
       }
     ]
   },
@@ -5824,6 +7694,16 @@
         "word": "altitude",
         "pos": "n.",
         "meaning": "高度；海拔"
+      },
+      {
+        "word": "servitude",
+        "pos": "n.",
+        "meaning": "奴役；苦役"
+      },
+      {
+        "word": "lassitude",
+        "pos": "n.",
+        "meaning": "疲乏；倦怠"
       }
     ]
   },
@@ -5855,6 +7735,16 @@
         "word": "urgency",
         "pos": "n.",
         "meaning": "紧迫；紧急"
+      },
+      {
+        "word": "vacancy",
+        "pos": "n.",
+        "meaning": "空缺；空房"
+      },
+      {
+        "word": "redundancy",
+        "pos": "n.",
+        "meaning": "多余；裁员"
       }
     ]
   },
@@ -5886,6 +7776,16 @@
         "word": "judicious",
         "pos": "adj.",
         "meaning": "明智的；有判断力的"
+      },
+      {
+        "word": "capacious",
+        "pos": "adj.",
+        "meaning": "容量大的；宽敞的"
+      },
+      {
+        "word": "sagacious",
+        "pos": "adj.",
+        "meaning": "睿智的；有远见的"
       }
     ]
   },
@@ -5917,6 +7817,16 @@
         "word": "obsolescent",
         "pos": "adj.",
         "meaning": "逐渐过时的"
+      },
+      {
+        "word": "iridescent",
+        "pos": "adj.",
+        "meaning": "彩虹色的；变彩的"
+      },
+      {
+        "word": "luminescent",
+        "pos": "adj.",
+        "meaning": "发冷光的"
       }
     ]
   },
@@ -5948,6 +7858,16 @@
         "word": "somniferous",
         "pos": "adj.",
         "meaning": "催眠的"
+      },
+      {
+        "word": "auriferous",
+        "pos": "adj.",
+        "meaning": "含金的；产金的"
+      },
+      {
+        "word": "carboniferous",
+        "pos": "adj.",
+        "meaning": "含碳的；石炭纪的"
       }
     ]
   },
@@ -5979,6 +7899,16 @@
         "word": "certitude",
         "pos": "n.",
         "meaning": "确信；确实"
+      },
+      {
+        "word": "gratitude",
+        "pos": "n.",
+        "meaning": "感激；感恩"
+      },
+      {
+        "word": "plenitude",
+        "pos": "n.",
+        "meaning": "充足；丰盈"
       }
     ]
   },
@@ -6010,6 +7940,16 @@
         "word": "optometry",
         "pos": "n.",
         "meaning": "验光；视力测定"
+      },
+      {
+        "word": "geometry",
+        "pos": "n.",
+        "meaning": "几何学（土地测量）"
+      },
+      {
+        "word": "asymmetry",
+        "pos": "n.",
+        "meaning": "不对称"
       }
     ]
   },
@@ -6041,6 +7981,16 @@
         "word": "antipathy",
         "pos": "n.",
         "meaning": "反感；厌恶"
+      },
+      {
+        "word": "apathy",
+        "pos": "n.",
+        "meaning": "冷漠；无动于衷"
+      },
+      {
+        "word": "homeopathy",
+        "pos": "n.",
+        "meaning": "顺势疗法"
       }
     ]
   },
@@ -6072,6 +8022,16 @@
         "word": "hydrophobia",
         "pos": "n.",
         "meaning": "恐水症；狂犬病"
+      },
+      {
+        "word": "agoraphobia",
+        "pos": "n.",
+        "meaning": "广场恐惧症；旷野恐惧"
+      },
+      {
+        "word": "photophobia",
+        "pos": "n.",
+        "meaning": "畏光；恐光症"
       }
     ]
   },
@@ -6103,6 +8063,16 @@
         "word": "endoscope",
         "pos": "n.",
         "meaning": "内窥镜"
+      },
+      {
+        "word": "telescope",
+        "pos": "n.",
+        "meaning": "望远镜"
+      },
+      {
+        "word": "kaleidoscope",
+        "pos": "n.",
+        "meaning": "万花筒；千变万化"
       }
     ]
   },
@@ -6134,6 +8104,16 @@
         "word": "insectivorous",
         "pos": "adj.",
         "meaning": "食虫的"
+      },
+      {
+        "word": "frugivorous",
+        "pos": "adj.",
+        "meaning": "食果的"
+      },
+      {
+        "word": "graminivorous",
+        "pos": "adj.",
+        "meaning": "食草的；吃禾草的"
       }
     ]
   }

@@ -48,6 +48,66 @@ window.__ModuleLoader__.load({
         .filter((variant) => variant.key.length > 0);
     }
 
+    /**
+     * Where the morpheme sits inside one example word, or null when it is invisible.
+     *
+     * The search follows the same attachment rule the build enforces: a prefix is
+     * only looked for at the start of the word and a suffix only at its end, which is
+     * what stops a short prefix such as `in-` from marking itself inside an unrelated
+     * word. A stem may sit anywhere, and the longest variant wins so `spect` marks all
+     * of `inspect` instead of the shorter `spec`.
+     *
+     * Null is not an error: sound change wears morphemes away (`reign` for reg-,
+     * `faith` for fid-), and those rows are shown plain rather than marked at a
+     * guessed position. `build.mjs` keeps that set honest — outside its reviewed
+     * exemptions every example must carry its morpheme visibly.
+     * @param form - the entry's display form.
+     * @param word - one example word.
+     * @returns `{ start, end }` in the word's own indices, or null when nothing shows.
+     */
+    function locateMorpheme(form, word) {
+      const text = String(word ?? '');
+      const lower = text.toLowerCase();
+      // Longest first: for one word the longer variant is the specific answer.
+      const variants = variantForms(form).slice().sort((left, right) => right.key.length - left.key.length);
+      for (const { key, side } of variants) {
+        if (side === 'prefix' && lower.startsWith(key)) return { start: 0, end: key.length };
+        if (side === 'suffix' && lower.endsWith(key)) return { start: lower.length - key.length, end: lower.length };
+      }
+      for (const { key, side } of variants) {
+        if (side !== 'neutral') continue;
+        const at = lower.indexOf(key);
+        if (at >= 0) return { start: at, end: at + key.length };
+      }
+      // Only a reviewed exemption gets this far: it spells part of the morpheme
+      // somewhere inside without attaching it where its hyphen says, as `-log` does
+      // in `logic`. Marking that teaches more than leaving the word bare.
+      for (const { key } of variants) {
+        const at = lower.indexOf(key);
+        if (at >= 0) return { start: at, end: at + key.length };
+      }
+      return null;
+    }
+
+    /**
+     * Split one example word around its morpheme, so a row can mark exactly that part
+     * without losing the rest of the word. A word with nothing to mark arrives as one
+     * unmarked segment, so callers never have to branch on null.
+     * @param form - the entry's display form.
+     * @param word - one example word.
+     * @returns ordered `{ text, hit }` segments that rejoin into the word.
+     */
+    function wordSegments(form, word) {
+      const text = String(word ?? '');
+      const at = locateMorpheme(form, text);
+      if (at === null) return [{ text, hit: false }];
+      const segments = [];
+      if (at.start > 0) segments.push({ text: text.slice(0, at.start), hit: false });
+      segments.push({ text: text.slice(at.start, at.end), hit: true });
+      if (at.end < text.length) segments.push({ text: text.slice(at.end), hit: false });
+      return segments;
+    }
+
     const BY_LABEL = new Map();
     const BY_VARIANT = new Map();
     for (const entry of morphemes) {
@@ -109,6 +169,11 @@ window.__ModuleLoader__.load({
       findMorphemes,
       searchMorphemes,
       variantForms,
+      locateMorpheme,
+      wordSegments,
+      // The example-word row and the quiz, so the offline test can render them and
+      // assert that the morpheme is marked where it should be — and nowhere else.
+      components: { WordRow, PracticeTab },
     };
 
     // ------------------------------------------------------------- palette
@@ -283,6 +348,14 @@ window.__ModuleLoader__.load({
   border-top: 1px solid var(--dsw-alias-border-l1); }
 .er-word:first-child { border-top: 0; }
 .er-word-text { font-weight: 600; min-width: 132px; }
+/* The morpheme inside an example word, marked by colour alone: the accent that
+    belongs to the entry's class, at the weight the rest of the word already carries.
+    A span, not a mark element: mark brings a yellow UA background (and a black UA
+    colour) that would have to be reset, and any future repaint of that background
+    would land straight on the words the reader is trying to read. This rule paints
+    nothing — see the assertion in client-smoke.mjs that keeps it that way. */
+.er-word-hl { color: var(--er-accent, var(--dsw-alias-brand-primary)); }
+.er-feedback-word { font-weight: 600; }
 .er-word-pos { color: var(--dsw-alias-label-secondary); font-size: 12px; }
 .er-word-meaning { color: var(--dsw-alias-label-primary); }
 .er-empty { color: var(--dsw-alias-label-secondary); padding: 40px 24px; text-align: center; }
@@ -464,15 +537,38 @@ window.__ModuleLoader__.load({
         prompt: `${answer.entry.form} — ${answer.entry.meaning}`,
         options,
         answerWord: answer.answerWord,
-        explanation: `${answer.answerWord}（${answer.entry.examples[0].pos} ${answer.entry.examples[0].meaning}）含${noun} ${answer.entry.form}，意为「${answer.entry.meaning}」，源自${answer.entry.origin}。`,
+        // The panel marks the morpheme inside the answer word, so the feedback keeps
+        // the entry and its example instead of a finished sentence.
+        answerEntry: answer.entry,
+        answerExample: answer.entry.examples[0],
       };
+    }
+
+    /**
+     * Render one example word as React children with its morpheme in a coloured span.
+     *
+     * A plain function rather than a component: the segments are already computed from
+     * the arguments, so an extra element between the row and its text would buy nothing.
+     */
+    function markedChildren(form, word) {
+      return wordSegments(form, word)
+        .map((segment, index) => (segment.hit
+          ? h('span', { key: `hit-${index}`, className: 'er-word-hl' }, segment.text)
+          : segment.text));
     }
 
     /** One example-word row. */
     function WordRow(props) {
+      const entry = props.entry;
       const example = props.example;
+      // A word whose morpheme sound change has worn away has nothing to mark; the
+      // tooltip says so, rather than letting the row look like a missed highlight.
+      const obscured = locateMorpheme(entry.form, example.word) === null;
       return h('li', { className: 'er-word' },
-        h('span', { className: 'er-word-text' }, example.word),
+        h('span', {
+          className: 'er-word-text',
+          title: obscured ? `含${KIND_LABEL[entry.kind]} ${entry.form}，但音变后词素已不可见` : undefined,
+        }, markedChildren(entry.form, example.word)),
         h('span', { className: 'er-word-pos' }, example.pos),
         h('span', { className: 'er-word-meaning' }, example.meaning));
     }
@@ -482,7 +578,7 @@ window.__ModuleLoader__.load({
       return h(React.Fragment, null,
         h('p', { className: 'er-section' }, `例词 ${props.entry.examples.length}`),
         h('ul', { className: 'er-words' },
-          props.entry.examples.map((example) => h(WordRow, { key: example.word, example }))));
+          props.entry.examples.map((example) => h(WordRow, { key: example.word, entry: props.entry, example }))));
     }
 
     /** Stable per-entry identity inside the panel: the class plus the display form. */
@@ -873,7 +969,11 @@ window.__ModuleLoader__.load({
                     onClick: () => choose(option),
                   },
                   h('span', { className: 'er-option-key' }, String.fromCharCode(65 + index)),
-                  h('span', null, option));
+                  // The mark is held back until the question is answered: on an open
+                  // question it would point straight at the right option.
+                  h('span', null, answered && option === item.answerWord
+                    ? markedChildren(item.answerEntry.form, option)
+                    : option));
                 })),
               picked === null
                 ? null
@@ -884,7 +984,12 @@ window.__ModuleLoader__.load({
                 },
                 h('div', { className: 'er-feedback-title' },
                   picked === item.answerWord ? '答对了' : '答错了'),
-                h('div', null, item.explanation)),
+                h('div', null,
+                  h('span', { className: 'er-feedback-word' },
+                    markedChildren(item.answerEntry.form, item.answerWord)),
+                  `（${item.answerExample.pos} ${item.answerExample.meaning}）`
+                  + `含${KIND_LABEL[item.answerEntry.kind]} ${item.answerEntry.form}，`
+                  + `意为「${item.answerEntry.meaning}」，源自${item.answerEntry.origin}。`)),
               h('div', { className: 'er-footer' },
                 h('button', {
                   type: 'button',
